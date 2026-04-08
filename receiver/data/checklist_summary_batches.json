@@ -1,0 +1,30 @@
+{
+  "num_checklist_summary_batches": 20,
+  "recent_batch_data": [
+    {
+      "avg_completion_rate": 0.7,
+      "num_summaries": 1,
+      "received_timestamp": "2026-01-21 13:03:48.283118"
+    },
+    {
+      "avg_completion_rate": 0.7,
+      "num_summaries": 1,
+      "received_timestamp": "2026-01-21 13:03:48.382108"
+    },
+    {
+      "avg_completion_rate": 0.7,
+      "num_summaries": 1,
+      "received_timestamp": "2026-01-21 13:03:48.486536"
+    },
+    {
+      "avg_completion_rate": 0.7,
+      "num_summaries": 1,
+      "received_timestamp": "2026-01-21 13:03:48.581265"
+    },
+    {
+      "avg_completion_rate": 0.7,
+      "num_summaries": 1,
+      "received_timestamp": "2026-01-21 13:03:48.683393"
+    }
+  ]
+}

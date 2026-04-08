@@ -1,0 +1,5 @@
+connexion[flask,uvicorn,swagger-ui]
+PyYAML
+requests
+apscheduler
+

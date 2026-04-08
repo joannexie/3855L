@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checklist Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div>
+        <h1>Checklist Dashboard</h1>
+        <p>Joanne Xie</p>
+      </div>
+      <img
+        src="logo.png"
+        alt="Checklist Logo"
+        class="logo"
+      />
+    </header>
+
+    <section class="card">
+      <h2>Last Updated</h2>
+      <p id="lastUpdated">Loading...</p>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Processing Stats</h2>
+        <pre id="processingStats">Loading...</pre>
+      </div>
+
+      <div class="card">
+        <h2>Analyzer Stats</h2>
+        <pre id="analyzerStats">Loading...</pre>
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="card">
+        <h2>Random Checklist Item Event</h2>
+        <pre id="event1">Loading...</pre>
+      </div>
+
+      <div class="card">
+        <h2>Random Checklist Summary Event</h2>
+        <pre id="event2">Loading...</pre>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Status</h2>
+      <p id="statusMsg">Waiting for data...</p>
+    </section>
+  </div>
+
+  <script src="updateStats.js"></script>
+</body>
+</html>

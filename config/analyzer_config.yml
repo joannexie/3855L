@@ -1,0 +1,13 @@
+version: 1
+
+events:
+  hostname: kafka
+  port: 9092
+  topic: events
+
+event_types:
+  checklist_items: checklist_item
+  checklist_summaries: checklist_summary
+
+service:
+  port: 8110

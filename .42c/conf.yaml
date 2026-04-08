@@ -1,0 +1,3 @@
+apis:
+  todo_checklist_api.yml:
+    alias: to-do-checklist-api

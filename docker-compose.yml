@@ -1,0 +1,99 @@
+services:
+  zookeeper:
+    image: wurstmeister/zookeeper
+    restart: unless-stopped
+    volumes:
+      - zookeeper-data:/data
+
+  kafka:
+    image: wurstmeister/kafka
+    command: ["start-kafka.sh"]
+    restart: unless-stopped
+    environment:
+      KAFKA_CREATE_TOPICS: "events:1:1"
+      KAFKA_LISTENERS: PLAINTEXT://:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+    volumes:
+      - kafka-data:/kafka
+    depends_on:
+      - zookeeper
+
+  mysql:
+    image: mysql:8
+    restart: unless-stopped
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: "1"
+      MYSQL_DATABASE: "todo"
+      MYSQL_USER: "todo_user"
+      MYSQL_PASSWORD: "todo_pass"
+    volumes:
+      - my-db:/var/lib/mysql
+
+  receiver:
+    build:
+      context: ./receiver
+      dockerfile: Dockerfile
+    restart: on-failure
+    depends_on:
+      - kafka
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+
+  storage:
+    build:
+      context: ./storage
+      dockerfile: Dockerfile
+    restart: on-failure
+    depends_on:
+      - mysql
+      - kafka
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+
+  processing:
+    build:
+      context: ./processing
+      dockerfile: Dockerfile
+    restart: on-failure
+    depends_on:
+      - storage
+    ports:
+      - "8100:8100"
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+      - ./data/processing:/data
+
+  analyzer:
+    build:
+      context: ./analyzer
+      dockerfile: Dockerfile
+    restart: on-failure
+    depends_on:
+      - kafka
+    ports:
+      - "8110:8110"
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+
+  dashboard:
+    build:
+      context: ./dashboard-ui
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    depends_on:
+      - processing
+      - analyzer
+    ports:
+      - "3000:80"
+
+volumes:
+  my-db:
+  kafka-data:
+  zookeeper-data:

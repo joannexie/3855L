@@ -1,0 +1,150 @@
+openapi: 3.0.3
+info:
+  title: To-Do Checklist Storage API
+  version: "1.0.0"
+  description: Stores checklist events in a database (events are consumed from Kafka). Only supports GET queries via HTTP.
+
+paths:
+  /todo/checklist-items:
+    get:
+      summary: Get checklist item events by timespan
+      operationId: app.get_checklist_item_events
+      description: Returns checklist item events stored between start_timestamp (>=) and end_timestamp (<)
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2026-01-13T00:00:00.000Z"
+        - name: end_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2026-01-14T00:00:00.000Z"
+      responses:
+        '200':
+          description: Successfully returned checklist item events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ChecklistItemEvent'
+        '400':
+          description: invalid input
+
+  /todo/checklist-summaries:
+    get:
+      summary: Get checklist summary events by timespan
+      operationId: app.get_checklist_summary_events
+      description: Returns checklist summary events stored between start_timestamp (>=) and end_timestamp (<)
+      parameters:
+        - name: start_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2026-01-13T00:00:00.000Z"
+        - name: end_timestamp
+          in: query
+          required: true
+          schema:
+            type: string
+            format: date-time
+            example: "2026-01-14T00:00:00.000Z"
+      responses:
+        '200':
+          description: Successfully returned checklist summary events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ChecklistSummaryEvent'
+        '400':
+          description: invalid input
+
+components:
+  schemas:
+    ChecklistItemEvent:
+      type: object
+      required:
+        - trace_id
+        - sender_id
+        - sent_timestamp
+        - list_name
+        - item_name
+        - completed
+        - completed_at
+        - estimated_mins
+      properties:
+        trace_id:
+          type: string
+          format: uuid
+          example: b0d2f6e6-7f09-4a26-9ee5-0f3f2b4d3c11
+        sender_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        sent_timestamp:
+          type: string
+          format: date-time
+          example: "2026-01-13T21:12:33.001Z"
+        list_name:
+          type: string
+          example: Daily To-Do List
+        item_name:
+          type: string
+          example: Finish ACIT3855 Lab 1
+        completed:
+          type: boolean
+          example: true
+        completed_at:
+          type: string
+          format: date-time
+          example: "2026-01-13T21:10:00.000Z"
+        estimated_mins:
+          type: integer
+          example: 45
+
+    ChecklistSummaryEvent:
+      type: object
+      required:
+        - trace_id
+        - sender_id
+        - sent_timestamp
+        - list_name
+        - items_completed
+        - items_total
+        - summary_at
+      properties:
+        trace_id:
+          type: string
+          format: uuid
+          example: b0d2f6e6-7f09-4a26-9ee5-0f3f2b4d3c11
+        sender_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        sent_timestamp:
+          type: string
+          format: date-time
+          example: "2026-01-13T23:00:00.000Z"
+        list_name:
+          type: string
+          example: Daily To-Do List
+        items_completed:
+          type: integer
+          example: 7
+        items_total:
+          type: integer
+          example: 10
+        summary_at:
+          type: string
+          format: date-time
+          example: "2026-01-13T22:59:59.000Z"

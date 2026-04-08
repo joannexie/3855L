@@ -1,0 +1,141 @@
+openapi: 3.0.3
+
+info:
+  title: Analyzer API
+  version: "1.0.0"
+  description: >
+    Reads events from Kafka and returns event history by type and index, plus queue statistics.
+
+servers:
+  - url: /
+
+paths:
+  /todo/checklist-items:
+    get:
+      summary: Get a checklist-item event by index
+      description: >
+        Returns the checklist-item event at the given 0-based index (counting only checklist-item events
+        inside the mixed Kafka queue).
+      operationId: app.get_event1
+      parameters:
+        - name: index
+          in: query
+          required: true
+          description: 0-based index within checklist-item events
+          schema:
+            type: integer
+            minimum: 0
+            example: 0
+      responses:
+        "200":
+          description: Event found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalyzerEvent"
+        "400":
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: No event at that index
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /todo/checklist-summaries:
+    get:
+      summary: Get a checklist-summary event by index
+      description: >
+        Returns the checklist-summary event at the given 0-based index (counting only checklist-summary events
+        inside the mixed Kafka queue).
+      operationId: app.get_event2
+      parameters:
+        - name: index
+          in: query
+          required: true
+          description: 0-based index within checklist-summary events
+          schema:
+            type: integer
+            minimum: 0
+            example: 0
+      responses:
+        "200":
+          description: Event found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AnalyzerEvent"
+        "400":
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+        "404":
+          description: No event at that index
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /stats:
+    get:
+      summary: Get current event counts in the Kafka queue
+      operationId: app.get_stats
+      responses:
+        "200":
+          description: Statistics returned
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
+
+components:
+  schemas:
+    AnalyzerEvent:
+      type: object
+      required:
+        - type
+        - datetime
+        - payload
+      properties:
+        type:
+          type: string
+          description: Kafka event type
+          example: checklist_item
+        datetime:
+          type: string
+          description: When the event was created
+          example: "2026-03-03T22:15:00"
+        payload:
+          type: object
+          description: The event payload (contents depend on your event schema)
+          additionalProperties: true
+
+    Stats:
+      type: object
+      required:
+        - num_event1
+        - num_event2
+      properties:
+        num_event1:
+          type: integer
+          description: Count of checklist-item events in the queue
+          example: 12
+        num_event2:
+          type: integer
+          description: Count of checklist-summary events in the queue
+          example: 9
+
+    Error:
+      type: object
+      required:
+        - message
+      properties:
+        message:
+          type: string
+          example: No event at index 10

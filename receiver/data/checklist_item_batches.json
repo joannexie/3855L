@@ -1,0 +1,30 @@
+{
+  "num_checklist_item_batches": 10,
+  "recent_batch_data": [
+    {
+      "avg_estimated_minutes": 45.0,
+      "num_checklist_items": 1,
+      "received_timestamp": "2026-01-21 13:03:24.792298"
+    },
+    {
+      "avg_estimated_minutes": 45.0,
+      "num_checklist_items": 1,
+      "received_timestamp": "2026-01-21 13:03:24.903891"
+    },
+    {
+      "avg_estimated_minutes": 45.0,
+      "num_checklist_items": 1,
+      "received_timestamp": "2026-01-21 13:03:24.991939"
+    },
+    {
+      "avg_estimated_minutes": 45.0,
+      "num_checklist_items": 1,
+      "received_timestamp": "2026-01-21 13:03:25.092245"
+    },
+    {
+      "avg_estimated_minutes": 45.0,
+      "num_checklist_items": 1,
+      "received_timestamp": "2026-01-21 13:03:25.207793"
+    }
+  ]
+}

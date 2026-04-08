@@ -1,0 +1,130 @@
+openapi: 3.0.3
+info:
+  title: To-Do Checklist API
+  version: "1.0.0"
+  description: This API receives to-do checklist batch events from users.
+
+paths:
+  /todo/checklist-items:
+    post:
+      summary: Reports a batch of checklist item events
+      operationId: app.report_checklist_item_events
+      description: Adds a batch of checklist items that were completed throughout the day.
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChecklistItemBatch'
+      responses:
+        '201':
+          description: batch successfully received
+        '400':
+          description: invalid input, object invalid
+
+  /todo/checklist-summaries:
+    post:
+      summary: Reports a batch of checklist summary events
+      operationId: app.report_checklist_summary_events
+      description: Adds a batch of checklist summaries generated periodically (for example, end of day).
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ChecklistSummaryBatch'
+      responses:
+        '201':
+          description: batch successfully received
+        '400':
+          description: invalid input, object invalid
+
+components:
+  schemas:
+    ChecklistItemBatch:
+      type: object
+      required:
+        - sender_id
+        - sent_timestamp
+        - list_name
+        - items
+      properties:
+        sender_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        sent_timestamp:
+          type: string
+          format: date-time
+          example: "2026-01-13T21:12:33.001Z"
+        list_name:
+          type: string
+          example: Daily To-Do List
+        items:
+          type: array # multi items in 1 reqest
+          items:
+            $ref: '#/components/schemas/ChecklistItem'
+
+    ChecklistItem:
+      type: object
+      required:
+        - item_name
+        - completed
+        - completed_at
+        - estimated_mins
+      properties:
+        item_name:
+          type: string
+          example: Finish ACIT3855 Lab 1
+        completed:
+          type: boolean
+          example: true
+        completed_at:
+          type: string
+          format: date-time
+          example: "2026-01-13T21:10:00.000Z"
+        estimated_mins:
+          type: integer
+          description: Estimated number of minutes required to complete the task
+          example: 45
+
+    ChecklistSummaryBatch:
+      type: object
+      required:
+        - sender_id
+        - sent_timestamp
+        - list_name
+        - summaries
+      properties:
+        sender_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        sent_timestamp:
+          type: string
+          format: date-time
+          example: "2026-01-13T23:00:00.000Z"
+        list_name:
+          type: string
+          example: Daily To-Do List
+        summaries:
+          type: array
+          items:
+            $ref: '#/components/schemas/ChecklistSummary'
+
+    ChecklistSummary:
+      type: object
+      required:
+        - items_completed
+        - items_total
+        - summary_at
+      properties:
+        items_completed:
+          type: integer
+          example: 7
+        items_total:
+          type: integer
+          example: 10
+        summary_at:
+          type: string
+          format: date-time
+          example: "2026-01-13T22:59:59.000Z"
+

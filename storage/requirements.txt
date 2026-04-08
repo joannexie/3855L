@@ -1,0 +1,6 @@
+connexion[flask,uvicorn,swagger-ui]
+PyYAML
+sqlalchemy
+pymysql
+cryptography
+kafka-python

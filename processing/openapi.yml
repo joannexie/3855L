@@ -1,0 +1,65 @@
+openapi: 3.0.3
+info:
+  title: To-Do Checklist Processing API
+  version: "1.0.0"
+  description: Computes statistics from events stored in the storage service.
+
+paths:
+  /stats:
+    get:
+      summary: Get checklist stats
+      operationId: app.get_stats
+      description: Returns computed event statistics from the local stats file.
+      responses:
+        '200':
+          description: Stats returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChecklistStats'
+        '404':
+          description: Stats do not exist yet
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorMessage'
+
+components:
+  schemas:
+    ChecklistStats:
+      type: object
+      required:
+        - num_checklist_item_events
+        - num_checklist_summary_events
+        - max_estimated_mins
+        - max_items_completed
+        - last_updated
+      properties:
+        num_checklist_item_events:
+          type: integer
+          example: 12
+        num_checklist_summary_events:
+          type: integer
+          example: 4
+        max_estimated_mins:
+          type: integer
+          nullable: true
+          example: 60
+        max_items_completed:
+          type: integer
+          nullable: true
+          example: 9
+        last_updated:
+          type: string
+          format: date-time
+          nullable: true
+          example: "2026-02-10T19:05:10Z"
+
+    ErrorMessage:
+      type: object
+      required:
+        - message
+      properties:
+        message:
+          type: string
+          example: Statistics do not exist
