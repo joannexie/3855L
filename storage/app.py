@@ -303,6 +303,14 @@ def get_checklist_summary_events(session, start_timestamp, end_timestamp):
     except SQLAlchemyError as e:
         return {"message": f"Database error: {e}"}, 500
 
+# A1: new health endpoint
+def health():
+    """
+    GET /health
+    Returns 200 if storage service is running.
+    """
+    return {"status": "Storage is healthy"}, 200
+
 app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(

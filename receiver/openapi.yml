@@ -5,6 +5,17 @@ info:
   description: This API receives to-do checklist batch events from users.
 
 paths:
+  /health: # A1: health check endpoint
+    get:
+      summary: Health check
+      operationId: app.health
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
   /todo/checklist-items:
     post:
       summary: Reports a batch of checklist item events
@@ -25,7 +36,7 @@ paths:
     post:
       summary: Reports a batch of checklist summary events
       operationId: app.report_checklist_summary_events
-      description: Adds a batch of checklist summaries generated periodically (for example, end of day).
+      description: Adds a batch of checklist summaries generated periodically.
       requestBody:
         content:
           application/json:
@@ -39,6 +50,12 @@ paths:
 
 components:
   schemas:
+    HealthResponse: # A1: health check response schema
+      type: object
+      properties:
+        status:
+          type: string
+          example: Receiver is healthy
     ChecklistItemBatch:
       type: object
       required:
@@ -50,14 +67,14 @@ components:
         sender_id:
           type: string
           format: uuid
-          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+          
         sent_timestamp:
           type: string
           format: date-time
-          example: "2026-01-13T21:12:33.001Z"
+          
         list_name:
           type: string
-          example: Daily To-Do List
+          
         items:
           type: array # multi items in 1 reqest
           items:
@@ -73,18 +90,17 @@ components:
       properties:
         item_name:
           type: string
-          example: Finish ACIT3855 Lab 1
+          
         completed:
           type: boolean
-          example: true
+          
         completed_at:
           type: string
           format: date-time
-          example: "2026-01-13T21:10:00.000Z"
+        
         estimated_mins:
           type: integer
-          description: Estimated number of minutes required to complete the task
-          example: 45
+          
 
     ChecklistSummaryBatch:
       type: object
@@ -97,14 +113,14 @@ components:
         sender_id:
           type: string
           format: uuid
-          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+          
         sent_timestamp:
           type: string
           format: date-time
-          example: "2026-01-13T23:00:00.000Z"
+          
         list_name:
           type: string
-          example: Daily To-Do List
+          
         summaries:
           type: array
           items:
@@ -119,12 +135,12 @@ components:
       properties:
         items_completed:
           type: integer
-          example: 7
+          
         items_total:
           type: integer
-          example: 10
+          
         summary_at:
           type: string
           format: date-time
-          example: "2026-01-13T22:59:59.000Z"
+          
 

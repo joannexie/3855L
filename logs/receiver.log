@@ -760,3 +760,127 @@
 2026-04-08 05:17:02,896 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
 2026-04-08 05:17:02,922 - basicLogger - INFO - Received checklist summary batch with trace id 9cf0e151-c77e-44f2-8c88-a98af3e800c1
 2026-04-08 05:17:02,937 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:45,724 - basicLogger - INFO - Received checklist item batch with trace id e688bd76-0fe4-4578-8934-c2c60d9e5115
+2026-04-08 06:16:45,725 - basicLogger - INFO - Creating Kafka producer
+2026-04-08 06:16:45,740 - basicLogger - INFO - Kafka producer created successfully
+2026-04-08 06:16:45,881 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:45,960 - basicLogger - INFO - Received checklist summary batch with trace id 760f451d-0fe8-4c91-be9c-38ebdb7e38c6
+2026-04-08 06:16:45,979 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:47,129 - basicLogger - INFO - Received checklist item batch with trace id a6bfcd2c-6530-44ec-a3a6-9df88d56d65a
+2026-04-08 06:16:47,140 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:47,162 - basicLogger - INFO - Received checklist summary batch with trace id c35210bc-3904-4f92-92de-a2c57ea3791d
+2026-04-08 06:16:47,172 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:48,323 - basicLogger - INFO - Received checklist item batch with trace id 7a538d40-a962-4e8a-9c53-75991f4f29c7
+2026-04-08 06:16:48,335 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:48,361 - basicLogger - INFO - Received checklist summary batch with trace id 22afc5ea-d0bd-401a-b296-505637865737
+2026-04-08 06:16:48,372 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:49,592 - basicLogger - INFO - Received checklist item batch with trace id b7420e39-c5fe-4af6-930f-b468ab900101
+2026-04-08 06:16:49,604 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:49,661 - basicLogger - INFO - Received checklist summary batch with trace id eccdba6b-7a29-4f9c-96ea-9e6851ca342c
+2026-04-08 06:16:49,671 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:50,954 - basicLogger - INFO - Received checklist item batch with trace id 67026e5d-64e0-47f0-9730-a8054048cf21
+2026-04-08 06:16:50,964 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:51,009 - basicLogger - INFO - Received checklist summary batch with trace id cb8a8086-fc8f-4893-9d04-3513b30ce908
+2026-04-08 06:16:51,019 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:52,185 - basicLogger - INFO - Received checklist item batch with trace id 012c6f7a-3829-4045-93eb-a5e34aa50d12
+2026-04-08 06:16:52,195 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:52,238 - basicLogger - INFO - Received checklist summary batch with trace id 8b7ecefc-ebbf-4a6f-9972-7ed6a452355d
+2026-04-08 06:16:52,252 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:53,362 - basicLogger - INFO - Received checklist item batch with trace id 004ae09f-67c5-4229-960c-63da8829584f
+2026-04-08 06:16:53,374 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:53,401 - basicLogger - INFO - Received checklist summary batch with trace id c8589790-f18f-49ce-b0f7-23ace34a8886
+2026-04-08 06:16:53,414 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:54,540 - basicLogger - INFO - Received checklist item batch with trace id 0b90d754-ea74-43c6-bcca-4e889614ba84
+2026-04-08 06:16:54,552 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:54,572 - basicLogger - INFO - Received checklist summary batch with trace id 56f95845-9d05-498f-9001-b135f55e17b4
+2026-04-08 06:16:54,582 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:55,668 - basicLogger - INFO - Received checklist item batch with trace id 5cbc5a0f-33b6-4ca0-9198-bde2dd132e4c
+2026-04-08 06:16:55,680 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:55,702 - basicLogger - INFO - Received checklist summary batch with trace id dc833c3e-9345-4271-88bd-64bf004c8613
+2026-04-08 06:16:55,718 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:56,891 - basicLogger - INFO - Received checklist item batch with trace id 43f02ebe-5800-4153-98a2-a00ebf955da8
+2026-04-08 06:16:56,901 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:16:56,921 - basicLogger - INFO - Received checklist summary batch with trace id c99ffa9c-d3ea-4b0f-b193-94d625db04c6
+2026-04-08 06:16:56,932 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:50,017 - basicLogger - INFO - Received checklist item batch with trace id 113e9123-63af-42b6-a8a7-81e6f7818ade
+2026-04-08 06:25:50,028 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:50,053 - basicLogger - INFO - Received checklist summary batch with trace id a4b3644d-1e4e-4eae-9754-fe2f20643c93
+2026-04-08 06:25:50,063 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:52,410 - basicLogger - INFO - Received checklist item batch with trace id df774fbf-8c8b-42b5-8a20-e81c13898feb
+2026-04-08 06:25:52,419 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:52,560 - basicLogger - INFO - Received checklist summary batch with trace id dfa2ebf2-8f0f-4943-9167-c81a6667d037
+2026-04-08 06:25:52,570 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:54,764 - basicLogger - INFO - Received checklist item batch with trace id 7652f250-4134-4b89-ad64-48b7e226b84d
+2026-04-08 06:25:54,774 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:54,833 - basicLogger - INFO - Received checklist summary batch with trace id c9ba9087-de97-4b7c-98eb-027ef7ba58a2
+2026-04-08 06:25:54,843 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:57,037 - basicLogger - INFO - Received checklist item batch with trace id 3bd3d1e6-c652-4b4f-bf12-123f9b82e416
+2026-04-08 06:25:57,048 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:57,159 - basicLogger - INFO - Received checklist summary batch with trace id 5baf87dc-a993-4835-bb18-cbda75850dbd
+2026-04-08 06:25:57,170 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:59,409 - basicLogger - INFO - Received checklist item batch with trace id 03ec5185-d235-484c-b452-c9eecf3de239
+2026-04-08 06:25:59,419 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:25:59,513 - basicLogger - INFO - Received checklist summary batch with trace id bfbb7e5e-c5a1-4424-8d84-4eea67d96a8b
+2026-04-08 06:25:59,527 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:01,736 - basicLogger - INFO - Received checklist item batch with trace id 0b828570-3ae8-4358-838c-0d88aa48e997
+2026-04-08 06:26:01,757 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:01,817 - basicLogger - INFO - Received checklist summary batch with trace id a17b74b4-1f94-44a8-a046-c6874cedd9f6
+2026-04-08 06:26:01,863 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:04,102 - basicLogger - INFO - Received checklist item batch with trace id 624c06c5-12ef-4a78-863d-61c622a5b77b
+2026-04-08 06:26:04,115 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:04,140 - basicLogger - INFO - Received checklist summary batch with trace id ba05cd16-71a8-497b-8fd1-4203de1793ef
+2026-04-08 06:26:04,155 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:06,354 - basicLogger - INFO - Received checklist item batch with trace id f082321e-d0f0-4770-9930-f4e9fe5a5352
+2026-04-08 06:26:06,365 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:06,488 - basicLogger - INFO - Received checklist summary batch with trace id 2c39fd79-6d29-43cf-922e-b31499716eaa
+2026-04-08 06:26:06,499 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:08,697 - basicLogger - INFO - Received checklist item batch with trace id 7e6dfbe0-d6ab-4805-ac18-bdb8aefca4bf
+2026-04-08 06:26:08,709 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:08,747 - basicLogger - INFO - Received checklist summary batch with trace id cc4a7715-a853-47c4-8c44-1a74b1c8bcde
+2026-04-08 06:26:08,760 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:10,924 - basicLogger - INFO - Received checklist item batch with trace id 7d031918-8d3b-431f-9959-6e112c8a471c
+2026-04-08 06:26:10,934 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:26:10,956 - basicLogger - INFO - Received checklist summary batch with trace id 7e10436b-ce83-4382-82c0-82fd816b490d
+2026-04-08 06:26:10,967 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:34:58,797 - basicLogger - INFO - Received checklist item batch with trace id 36966079-435f-475f-b767-d04ed270daae
+2026-04-08 06:34:58,797 - basicLogger - INFO - Creating Kafka producer
+2026-04-08 06:34:58,809 - basicLogger - INFO - Kafka producer created successfully
+2026-04-08 06:34:58,938 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:34:58,965 - basicLogger - INFO - Received checklist summary batch with trace id a99c9952-3368-40e4-b752-523dc1edc1c9
+2026-04-08 06:34:58,977 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:00,149 - basicLogger - INFO - Received checklist item batch with trace id dfbcd168-b8aa-4d06-91cb-f48385df5fbe
+2026-04-08 06:35:00,161 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:00,202 - basicLogger - INFO - Received checklist summary batch with trace id adcbad74-af22-4c94-99a8-d1dd17ea9d15
+2026-04-08 06:35:00,226 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:01,443 - basicLogger - INFO - Received checklist item batch with trace id 9ed852a6-0a93-4677-afc5-d6e13ff4fe03
+2026-04-08 06:35:01,481 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:01,644 - basicLogger - INFO - Received checklist summary batch with trace id ed5b303e-3911-425d-8a84-40d40ab83264
+2026-04-08 06:35:01,734 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:03,264 - basicLogger - INFO - Received checklist item batch with trace id ce2fa5ae-d30f-4770-abe3-b122287b66e7
+2026-04-08 06:35:03,283 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:03,321 - basicLogger - INFO - Received checklist summary batch with trace id ba2011be-0d6a-4f77-8448-decb8403913a
+2026-04-08 06:35:03,344 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:04,695 - basicLogger - INFO - Received checklist item batch with trace id afaa2928-9784-4203-abe9-43a4a716a417
+2026-04-08 06:35:04,707 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:04,749 - basicLogger - INFO - Received checklist summary batch with trace id e2f8051b-0278-49ff-9256-9394a7d712ef
+2026-04-08 06:35:04,760 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:05,967 - basicLogger - INFO - Received checklist item batch with trace id d882fffe-fe2e-4a4c-8f91-6af15475cb5c
+2026-04-08 06:35:05,979 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:06,004 - basicLogger - INFO - Received checklist summary batch with trace id 751e5f58-5f65-4a9c-8adf-d600e326c837
+2026-04-08 06:35:06,018 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:07,153 - basicLogger - INFO - Received checklist item batch with trace id d68095df-a7f7-46ae-8007-9e29e9769534
+2026-04-08 06:35:07,165 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:07,206 - basicLogger - INFO - Received checklist summary batch with trace id a2c55fff-eaeb-4048-aa0f-de2fb4c19236
+2026-04-08 06:35:07,218 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:08,331 - basicLogger - INFO - Received checklist item batch with trace id 8ab2c53e-bbcf-49d4-a22d-9355595d7c23
+2026-04-08 06:35:08,346 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:08,370 - basicLogger - INFO - Received checklist summary batch with trace id 7f93ab66-ef3a-440c-8f6a-3f9fc8d4c40e
+2026-04-08 06:35:08,381 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:09,502 - basicLogger - INFO - Received checklist item batch with trace id 983161cc-34ec-469a-9f17-03b1606ba82c
+2026-04-08 06:35:09,512 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:09,540 - basicLogger - INFO - Received checklist summary batch with trace id 18a8276e-90ff-4d6e-93fd-4226505f7b89
+2026-04-08 06:35:09,550 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:10,644 - basicLogger - INFO - Received checklist item batch with trace id 4747b64c-1768-4e01-8432-a6fad248bc59
+2026-04-08 06:35:10,655 - basicLogger - INFO - Produced 1 Kafka messages to topic=events
+2026-04-08 06:35:10,682 - basicLogger - INFO - Received checklist summary batch with trace id 3fc63026-59f9-4a90-a10e-eb50fd1e9630
+2026-04-08 06:35:10,693 - basicLogger - INFO - Produced 1 Kafka messages to topic=events

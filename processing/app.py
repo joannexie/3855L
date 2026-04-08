@@ -185,7 +185,14 @@ def init_scheduler():
     return sched
 
 
-# api endpoint
+# Assignment 1: new health endpoint
+def health():
+    """
+    GET /health
+    Returns 200 if processing service is running.
+    """
+    return {"status": "Processing is healthy"}, 200
+    
 def get_stats():
     """
     GET /stats

@@ -1,0 +1,65 @@
+openapi: 3.0.3
+info:
+  title: Health Check API
+  version: "1.0.0"
+  description: Polls backend service health endpoints and stores current statuses.
+
+paths:
+  /health:
+    get:
+      summary: Health endpoint for health service
+      operationId: app.health
+      responses:
+        '200':
+          description: Health service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
+
+  /checks:
+    get:
+      summary: Get current backend service statuses
+      operationId: app.get_service_statuses
+      responses:
+        '200':
+          description: Current statuses returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ChecksResponse'
+
+components:
+  schemas:
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: Health Check service is healthy
+
+    ChecksResponse:
+      type: object
+      required:
+        - receiver
+        - storage
+        - processing
+        - analyzer
+        - last_update
+      properties:
+        receiver:
+          type: string
+          example: Up
+        storage:
+          type: string
+          example: Down
+        processing:
+          type: string
+          example: Up
+        analyzer:
+          type: string
+          example: Up
+        last_update:
+          type: string
+          format: date-time
+          example: "2026-03-22T11:12:23Z"

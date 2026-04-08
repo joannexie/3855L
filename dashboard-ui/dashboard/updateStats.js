@@ -2,6 +2,7 @@ const host = window.location.hostname || "localhost";
 
 const PROCESSING_STATS_URL = `http://${host}:8100/stats`;
 const ANALYZER_STATS_URL = `http://${host}:8110/stats`;
+const HEALTH_URL = `http://${host}:8120/checks`;
 const EVENT1_URL = `http://${host}:8110/todo/checklist-items`;
 const EVENT2_URL = `http://${host}:8110/todo/checklist-summaries`;
 
@@ -24,10 +25,20 @@ function randomIndex(max) {
   return Math.floor(Math.random() * max);
 }
 
+function setStatusText(elementId, value) {
+  document.getElementById(elementId).textContent = value || "Unknown";
+}
+
 async function updateDashboard() {
   const statusMsg = document.getElementById("statusMsg");
 
   try {
+    const healthData = await getJSON(HEALTH_URL);
+    setStatusText("receiverStatus", healthData.receiver);
+    setStatusText("storageStatus", healthData.storage);
+    setStatusText("processingStatus", healthData.processing);
+    setStatusText("analyzerStatus", healthData.analyzer);
+
     const processingStats = await getJSON(PROCESSING_STATS_URL);
     document.getElementById("processingStats").textContent = prettyPrint(processingStats);
 
@@ -55,7 +66,10 @@ async function updateDashboard() {
     }
 
     document.getElementById("lastUpdated").textContent =
-      processingStats.last_updated || analyzerStats.last_updated || new Date().toLocaleString();
+      healthData.last_update ||
+      processingStats.last_updated ||
+      analyzerStats.last_updated ||
+      new Date().toLocaleString();
 
     statusMsg.textContent = "Dashboard updated successfully.";
   } catch (error) {
@@ -64,4 +78,4 @@ async function updateDashboard() {
 }
 
 updateDashboard();
-setInterval(updateDashboard, 4000);
+setInterval(updateDashboard, 5000);

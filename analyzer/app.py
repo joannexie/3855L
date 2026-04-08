@@ -90,8 +90,14 @@ def _find_event_by_type_index(wanted_type: str, wanted_index: int):
 
     return {"message": f"No event of type '{wanted_type}' at index {wanted_index}"}, 404
 
+# A1: new health endpoint
+def health():
+    """
+    GET /health
+    Returns 200 if analyzer service is running.
+    """
+    return {"status": "Analyzer is healthy"}, 200
 
-# API endpoints
 def get_event1(index=None):
     """
     GET /todo/checklist-items?index=N

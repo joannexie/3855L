@@ -130,6 +130,33 @@ services:
       retries: 10
       start_period: 20s
 
+  health:
+    build:
+      context: ./health
+      dockerfile: Dockerfile
+    restart: on-failure
+    depends_on:
+      receiver:
+        condition: service_started
+      storage:
+        condition: service_started
+      processing:
+        condition: service_started
+      analyzer:
+        condition: service_started
+    ports:
+      - "8120:8120"
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+      - ./data/health:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.create_connection(('localhost', 8120), 2); s.close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
   dashboard:
     build:
       context: ./dashboard-ui
@@ -139,6 +166,8 @@ services:
       processing:
         condition: service_healthy
       analyzer:
+        condition: service_healthy
+      health:
         condition: service_healthy
     ports:
       - "3000:80"

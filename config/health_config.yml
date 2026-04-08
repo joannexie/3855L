@@ -1,0 +1,18 @@
+version: 1
+
+datastore:
+  filename: /data/health.sqlite
+
+scheduler:
+  period_sec: 5
+  timeout_sec: 5
+
+services:
+  receiver:
+    url: http://receiver:8080/health
+  storage:
+    url: http://storage:8090/health
+  processing:
+    url: http://processing:8100/health
+  analyzer:
+    url: http://analyzer:8110/health

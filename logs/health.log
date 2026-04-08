@@ -1,0 +1,1354 @@
+2026-04-08 06:07:04,908 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:04,929 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:04Z
+2026-04-08 06:07:04,947 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:04Z
+2026-04-08 06:07:04,958 - basicLogger - INFO - Recorded processing service as Down at 2026-04-08T06:07:04Z
+2026-04-08 06:07:04,974 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:04Z
+2026-04-08 06:07:06,211 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:06,223 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:06Z
+2026-04-08 06:07:06,235 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:06Z
+2026-04-08 06:07:06,248 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:06Z
+2026-04-08 06:07:06,261 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:06Z
+2026-04-08 06:07:07,408 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:07,424 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:07Z
+2026-04-08 06:07:07,438 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:07Z
+2026-04-08 06:07:07,452 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:07Z
+2026-04-08 06:07:07,467 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:07Z
+2026-04-08 06:07:08,928 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:08,940 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:08Z
+2026-04-08 06:07:08,951 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:08Z
+2026-04-08 06:07:08,963 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:08Z
+2026-04-08 06:07:08,974 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:08Z
+2026-04-08 06:07:10,720 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:10,733 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:10Z
+2026-04-08 06:07:10,743 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:10Z
+2026-04-08 06:07:10,754 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:10Z
+2026-04-08 06:07:10,765 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:10Z
+2026-04-08 06:07:13,419 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:13,431 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:13Z
+2026-04-08 06:07:13,442 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:13Z
+2026-04-08 06:07:13,453 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:13Z
+2026-04-08 06:07:13,464 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:13Z
+2026-04-08 06:07:17,604 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:17,618 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:17Z
+2026-04-08 06:07:17,630 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:17Z
+2026-04-08 06:07:17,641 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:17Z
+2026-04-08 06:07:17,652 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:17Z
+2026-04-08 06:07:24,968 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:24,980 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:24Z
+2026-04-08 06:07:24,992 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:24Z
+2026-04-08 06:07:25,003 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:24Z
+2026-04-08 06:07:25,014 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:25Z
+2026-04-08 06:07:38,725 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:07:38,737 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:07:38Z
+2026-04-08 06:07:38,748 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:07:38Z
+2026-04-08 06:07:38,759 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:07:38Z
+2026-04-08 06:07:38,770 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:07:38Z
+2026-04-08 06:08:05,357 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:08:05,377 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:08:05Z
+2026-04-08 06:08:05,389 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:08:05Z
+2026-04-08 06:08:05,400 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:08:05Z
+2026-04-08 06:08:05,411 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:08:05Z
+2026-04-08 06:08:57,544 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:08:57,556 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:08:57Z
+2026-04-08 06:08:57,567 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:08:57Z
+2026-04-08 06:08:57,578 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:08:57Z
+2026-04-08 06:08:57,589 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:08:57Z
+2026-04-08 06:09:58,513 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:09:58,526 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:09:58Z
+2026-04-08 06:09:58,540 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:09:58Z
+2026-04-08 06:09:58,554 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:09:58Z
+2026-04-08 06:09:58,572 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:09:58Z
+2026-04-08 06:10:59,522 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:10:59,534 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:10:59Z
+2026-04-08 06:10:59,545 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:10:59Z
+2026-04-08 06:10:59,556 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:10:59Z
+2026-04-08 06:10:59,567 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:10:59Z
+2026-04-08 06:12:00,570 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:12:00,582 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:12:00Z
+2026-04-08 06:12:00,594 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:12:00Z
+2026-04-08 06:12:00,604 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:12:00Z
+2026-04-08 06:12:00,615 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:12:00Z
+2026-04-08 06:13:04,666 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:04,691 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:04Z
+2026-04-08 06:13:04,709 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:04Z
+2026-04-08 06:13:04,719 - basicLogger - INFO - Recorded processing service as Down at 2026-04-08T06:13:04Z
+2026-04-08 06:13:04,741 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:04Z
+2026-04-08 06:13:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:09,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:09Z
+2026-04-08 06:13:09,770 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:09Z
+2026-04-08 06:13:09,783 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:09Z
+2026-04-08 06:13:09,795 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:09Z
+2026-04-08 06:13:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:14Z
+2026-04-08 06:13:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:14Z
+2026-04-08 06:13:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:14Z
+2026-04-08 06:13:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:14Z
+2026-04-08 06:13:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:19Z
+2026-04-08 06:13:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:19Z
+2026-04-08 06:13:19,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:19Z
+2026-04-08 06:13:19,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:19Z
+2026-04-08 06:13:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:24Z
+2026-04-08 06:13:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:24Z
+2026-04-08 06:13:24,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:24Z
+2026-04-08 06:13:24,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:24Z
+2026-04-08 06:13:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:29Z
+2026-04-08 06:13:29,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:29Z
+2026-04-08 06:13:29,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:29Z
+2026-04-08 06:13:29,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:29Z
+2026-04-08 06:13:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:34Z
+2026-04-08 06:13:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:34Z
+2026-04-08 06:13:34,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:34Z
+2026-04-08 06:13:34,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:34Z
+2026-04-08 06:13:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:39,760 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:39Z
+2026-04-08 06:13:39,773 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:39Z
+2026-04-08 06:13:39,784 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:39Z
+2026-04-08 06:13:39,794 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:39Z
+2026-04-08 06:13:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:44,762 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:44Z
+2026-04-08 06:13:44,775 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:44Z
+2026-04-08 06:13:44,790 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:44Z
+2026-04-08 06:13:44,806 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:44Z
+2026-04-08 06:13:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:49Z
+2026-04-08 06:13:49,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:49Z
+2026-04-08 06:13:49,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:49Z
+2026-04-08 06:13:49,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:49Z
+2026-04-08 06:13:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:54Z
+2026-04-08 06:13:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:54Z
+2026-04-08 06:13:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:54Z
+2026-04-08 06:13:54,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:54Z
+2026-04-08 06:13:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:13:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:13:59Z
+2026-04-08 06:13:59,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:13:59Z
+2026-04-08 06:13:59,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:13:59Z
+2026-04-08 06:13:59,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:13:59Z
+2026-04-08 06:14:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:04Z
+2026-04-08 06:14:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:04Z
+2026-04-08 06:14:04,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:04Z
+2026-04-08 06:14:04,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:04Z
+2026-04-08 06:14:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:09Z
+2026-04-08 06:14:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:09Z
+2026-04-08 06:14:09,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:09Z
+2026-04-08 06:14:09,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:09Z
+2026-04-08 06:14:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:14,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:14Z
+2026-04-08 06:14:14,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:14Z
+2026-04-08 06:14:14,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:14Z
+2026-04-08 06:14:14,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:14Z
+2026-04-08 06:14:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:19,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:19Z
+2026-04-08 06:14:19,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:19Z
+2026-04-08 06:14:19,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:19Z
+2026-04-08 06:14:19,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:19Z
+2026-04-08 06:14:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:24Z
+2026-04-08 06:14:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:24Z
+2026-04-08 06:14:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:24Z
+2026-04-08 06:14:24,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:24Z
+2026-04-08 06:14:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:29Z
+2026-04-08 06:14:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:29Z
+2026-04-08 06:14:29,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:29Z
+2026-04-08 06:14:29,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:29Z
+2026-04-08 06:14:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:34Z
+2026-04-08 06:14:34,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:34Z
+2026-04-08 06:14:34,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:34Z
+2026-04-08 06:14:34,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:34Z
+2026-04-08 06:14:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:39,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:39Z
+2026-04-08 06:14:39,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:39Z
+2026-04-08 06:14:39,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:39Z
+2026-04-08 06:14:39,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:39Z
+2026-04-08 06:14:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:44,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:44Z
+2026-04-08 06:14:44,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:44Z
+2026-04-08 06:14:44,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:44Z
+2026-04-08 06:14:44,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:44Z
+2026-04-08 06:14:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:49Z
+2026-04-08 06:14:49,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:49Z
+2026-04-08 06:14:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:49Z
+2026-04-08 06:14:49,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:49Z
+2026-04-08 06:14:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:54,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:54Z
+2026-04-08 06:14:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:54Z
+2026-04-08 06:14:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:54Z
+2026-04-08 06:14:54,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:54Z
+2026-04-08 06:14:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:14:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:14:59Z
+2026-04-08 06:14:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:14:59Z
+2026-04-08 06:14:59,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:14:59Z
+2026-04-08 06:14:59,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:14:59Z
+2026-04-08 06:15:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:04Z
+2026-04-08 06:15:04,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:04Z
+2026-04-08 06:15:04,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:04Z
+2026-04-08 06:15:04,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:04Z
+2026-04-08 06:15:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:09Z
+2026-04-08 06:15:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:09Z
+2026-04-08 06:15:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:09Z
+2026-04-08 06:15:09,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:09Z
+2026-04-08 06:15:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:14Z
+2026-04-08 06:15:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:14Z
+2026-04-08 06:15:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:14Z
+2026-04-08 06:15:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:14Z
+2026-04-08 06:15:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:19Z
+2026-04-08 06:15:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:19Z
+2026-04-08 06:15:19,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:19Z
+2026-04-08 06:15:19,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:19Z
+2026-04-08 06:15:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:24Z
+2026-04-08 06:15:24,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:24Z
+2026-04-08 06:15:24,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:24Z
+2026-04-08 06:15:24,796 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:24Z
+2026-04-08 06:15:29,750 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:29,778 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:29Z
+2026-04-08 06:15:29,794 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:29Z
+2026-04-08 06:15:29,806 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:29Z
+2026-04-08 06:15:29,823 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:29Z
+2026-04-08 06:15:34,749 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:34,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:34Z
+2026-04-08 06:15:34,770 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:34Z
+2026-04-08 06:15:34,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:34Z
+2026-04-08 06:15:34,792 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:34Z
+2026-04-08 06:15:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:39,764 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:39Z
+2026-04-08 06:15:39,774 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:39Z
+2026-04-08 06:15:39,785 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:39Z
+2026-04-08 06:15:39,796 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:39Z
+2026-04-08 06:15:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:44Z
+2026-04-08 06:15:44,771 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:44Z
+2026-04-08 06:15:44,782 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:44Z
+2026-04-08 06:15:44,792 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:44Z
+2026-04-08 06:15:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:49Z
+2026-04-08 06:15:49,772 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:49Z
+2026-04-08 06:15:49,786 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:49Z
+2026-04-08 06:15:49,799 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:49Z
+2026-04-08 06:15:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:54,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:54Z
+2026-04-08 06:15:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:54Z
+2026-04-08 06:15:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:54Z
+2026-04-08 06:15:54,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:54Z
+2026-04-08 06:15:59,097 - basicLogger - INFO - Health status of all services retrieved through API
+2026-04-08 06:15:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:15:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:15:59Z
+2026-04-08 06:15:59,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:15:59Z
+2026-04-08 06:15:59,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:15:59Z
+2026-04-08 06:15:59,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:15:59Z
+2026-04-08 06:16:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:04Z
+2026-04-08 06:16:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:04Z
+2026-04-08 06:16:04,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:04Z
+2026-04-08 06:16:04,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:04Z
+2026-04-08 06:16:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:09Z
+2026-04-08 06:16:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:09Z
+2026-04-08 06:16:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:09Z
+2026-04-08 06:16:09,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:09Z
+2026-04-08 06:16:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:14Z
+2026-04-08 06:16:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:14Z
+2026-04-08 06:16:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:14Z
+2026-04-08 06:16:14,794 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:14Z
+2026-04-08 06:16:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:19Z
+2026-04-08 06:16:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:19Z
+2026-04-08 06:16:19,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:19Z
+2026-04-08 06:16:19,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:19Z
+2026-04-08 06:16:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:24,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:24Z
+2026-04-08 06:16:24,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:24Z
+2026-04-08 06:16:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:24Z
+2026-04-08 06:16:24,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:24Z
+2026-04-08 06:16:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:29Z
+2026-04-08 06:16:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:29Z
+2026-04-08 06:16:29,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:29Z
+2026-04-08 06:16:29,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:29Z
+2026-04-08 06:16:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:34Z
+2026-04-08 06:16:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:34Z
+2026-04-08 06:16:34,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:34Z
+2026-04-08 06:16:34,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:34Z
+2026-04-08 06:16:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:39Z
+2026-04-08 06:16:39,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:39Z
+2026-04-08 06:16:39,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:39Z
+2026-04-08 06:16:39,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:39Z
+2026-04-08 06:16:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:44,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:44Z
+2026-04-08 06:16:44,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:44Z
+2026-04-08 06:16:44,783 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:44Z
+2026-04-08 06:16:44,793 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:44Z
+2026-04-08 06:16:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:49,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:49Z
+2026-04-08 06:16:49,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:49Z
+2026-04-08 06:16:49,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:49Z
+2026-04-08 06:16:49,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:49Z
+2026-04-08 06:16:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:54Z
+2026-04-08 06:16:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:54Z
+2026-04-08 06:16:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:54Z
+2026-04-08 06:16:54,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:54Z
+2026-04-08 06:16:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:16:59,763 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:16:59Z
+2026-04-08 06:16:59,780 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:16:59Z
+2026-04-08 06:16:59,790 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:16:59Z
+2026-04-08 06:16:59,802 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:16:59Z
+2026-04-08 06:17:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:04Z
+2026-04-08 06:17:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:04Z
+2026-04-08 06:17:04,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:04Z
+2026-04-08 06:17:04,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:04Z
+2026-04-08 06:17:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:09Z
+2026-04-08 06:17:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:09Z
+2026-04-08 06:17:09,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:09Z
+2026-04-08 06:17:09,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:09Z
+2026-04-08 06:17:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:14Z
+2026-04-08 06:17:14,771 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:14Z
+2026-04-08 06:17:14,782 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:14Z
+2026-04-08 06:17:14,793 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:14Z
+2026-04-08 06:17:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:19Z
+2026-04-08 06:17:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:19Z
+2026-04-08 06:17:19,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:19Z
+2026-04-08 06:17:19,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:19Z
+2026-04-08 06:17:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:24Z
+2026-04-08 06:17:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:24Z
+2026-04-08 06:17:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:24Z
+2026-04-08 06:17:24,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:24Z
+2026-04-08 06:17:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:29,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:29Z
+2026-04-08 06:17:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:29Z
+2026-04-08 06:17:29,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:29Z
+2026-04-08 06:17:29,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:29Z
+2026-04-08 06:17:30,223 - basicLogger - INFO - Health status of all services retrieved through API
+2026-04-08 06:17:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:34Z
+2026-04-08 06:17:34,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:34Z
+2026-04-08 06:17:34,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:34Z
+2026-04-08 06:17:34,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:34Z
+2026-04-08 06:17:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:39,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:39Z
+2026-04-08 06:17:39,780 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:39Z
+2026-04-08 06:17:39,795 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:39Z
+2026-04-08 06:17:39,806 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:39Z
+2026-04-08 06:17:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:44,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:44Z
+2026-04-08 06:17:44,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:44Z
+2026-04-08 06:17:44,782 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:44Z
+2026-04-08 06:17:44,793 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:44Z
+2026-04-08 06:17:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:49,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:49Z
+2026-04-08 06:17:49,770 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:49Z
+2026-04-08 06:17:49,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:49Z
+2026-04-08 06:17:49,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:49Z
+2026-04-08 06:17:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:54Z
+2026-04-08 06:17:54,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:54Z
+2026-04-08 06:17:54,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:54Z
+2026-04-08 06:17:54,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:54Z
+2026-04-08 06:17:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:17:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:17:59Z
+2026-04-08 06:17:59,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:17:59Z
+2026-04-08 06:17:59,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:17:59Z
+2026-04-08 06:17:59,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:17:59Z
+2026-04-08 06:18:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:04,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:04Z
+2026-04-08 06:18:04,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:04Z
+2026-04-08 06:18:04,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:04Z
+2026-04-08 06:18:04,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:04Z
+2026-04-08 06:18:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:09Z
+2026-04-08 06:18:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:09Z
+2026-04-08 06:18:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:09Z
+2026-04-08 06:18:09,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:09Z
+2026-04-08 06:18:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:14Z
+2026-04-08 06:18:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:14Z
+2026-04-08 06:18:14,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:14Z
+2026-04-08 06:18:14,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:14Z
+2026-04-08 06:18:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:19Z
+2026-04-08 06:18:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:19Z
+2026-04-08 06:18:19,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:19Z
+2026-04-08 06:18:19,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:19Z
+2026-04-08 06:18:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:24,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:24Z
+2026-04-08 06:18:24,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:24Z
+2026-04-08 06:18:24,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:24Z
+2026-04-08 06:18:24,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:24Z
+2026-04-08 06:18:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:29Z
+2026-04-08 06:18:29,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:29Z
+2026-04-08 06:18:29,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:29Z
+2026-04-08 06:18:29,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:29Z
+2026-04-08 06:18:34,747 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:34,769 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:34Z
+2026-04-08 06:18:34,782 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:34Z
+2026-04-08 06:18:34,793 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:34Z
+2026-04-08 06:18:34,804 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:34Z
+2026-04-08 06:18:38,453 - basicLogger - INFO - Health status of all services retrieved through API
+2026-04-08 06:18:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:39Z
+2026-04-08 06:18:39,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:39Z
+2026-04-08 06:18:39,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:39Z
+2026-04-08 06:18:39,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:39Z
+2026-04-08 06:18:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:44,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:44Z
+2026-04-08 06:18:44,774 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:44Z
+2026-04-08 06:18:44,793 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:44Z
+2026-04-08 06:18:44,813 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:44Z
+2026-04-08 06:18:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:49,762 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:49Z
+2026-04-08 06:18:49,777 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:49Z
+2026-04-08 06:18:49,788 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:49Z
+2026-04-08 06:18:49,798 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:49Z
+2026-04-08 06:18:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:54,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:54Z
+2026-04-08 06:18:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:54Z
+2026-04-08 06:18:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:54Z
+2026-04-08 06:18:54,787 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:54Z
+2026-04-08 06:18:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:18:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:18:59Z
+2026-04-08 06:18:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:18:59Z
+2026-04-08 06:18:59,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:18:59Z
+2026-04-08 06:18:59,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:18:59Z
+2026-04-08 06:19:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:04Z
+2026-04-08 06:19:04,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:04Z
+2026-04-08 06:19:04,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:04Z
+2026-04-08 06:19:04,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:04Z
+2026-04-08 06:19:07,856 - basicLogger - INFO - Health status of all services retrieved through API
+2026-04-08 06:19:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:09,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:09Z
+2026-04-08 06:19:09,771 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:09Z
+2026-04-08 06:19:09,782 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:09Z
+2026-04-08 06:19:09,794 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:09Z
+2026-04-08 06:19:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:14Z
+2026-04-08 06:19:14,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:14Z
+2026-04-08 06:19:14,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:14Z
+2026-04-08 06:19:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:14Z
+2026-04-08 06:19:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:19,762 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:19Z
+2026-04-08 06:19:19,776 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:19Z
+2026-04-08 06:19:19,789 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:19Z
+2026-04-08 06:19:19,805 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:19Z
+2026-04-08 06:19:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:24Z
+2026-04-08 06:19:24,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:24Z
+2026-04-08 06:19:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:24Z
+2026-04-08 06:19:24,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:24Z
+2026-04-08 06:19:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:29Z
+2026-04-08 06:19:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:29Z
+2026-04-08 06:19:29,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:29Z
+2026-04-08 06:19:29,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:29Z
+2026-04-08 06:19:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:34Z
+2026-04-08 06:19:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:34Z
+2026-04-08 06:19:34,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:34Z
+2026-04-08 06:19:34,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:34Z
+2026-04-08 06:19:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:39Z
+2026-04-08 06:19:39,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:39Z
+2026-04-08 06:19:39,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:39Z
+2026-04-08 06:19:39,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:39Z
+2026-04-08 06:19:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:44Z
+2026-04-08 06:19:44,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:44Z
+2026-04-08 06:19:44,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:44Z
+2026-04-08 06:19:44,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:44Z
+2026-04-08 06:19:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:49,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:49Z
+2026-04-08 06:19:49,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:49Z
+2026-04-08 06:19:49,776 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:49Z
+2026-04-08 06:19:49,786 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:49Z
+2026-04-08 06:19:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:54,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:54Z
+2026-04-08 06:19:54,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:54Z
+2026-04-08 06:19:54,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:54Z
+2026-04-08 06:19:54,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:54Z
+2026-04-08 06:19:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:19:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:19:59Z
+2026-04-08 06:19:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:19:59Z
+2026-04-08 06:19:59,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:19:59Z
+2026-04-08 06:19:59,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:19:59Z
+2026-04-08 06:20:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:04Z
+2026-04-08 06:20:04,770 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:04Z
+2026-04-08 06:20:04,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:04Z
+2026-04-08 06:20:04,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:04Z
+2026-04-08 06:20:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:09Z
+2026-04-08 06:20:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:09Z
+2026-04-08 06:20:09,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:09Z
+2026-04-08 06:20:09,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:09Z
+2026-04-08 06:20:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:14Z
+2026-04-08 06:20:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:14Z
+2026-04-08 06:20:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:14Z
+2026-04-08 06:20:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:14Z
+2026-04-08 06:20:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:19Z
+2026-04-08 06:20:19,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:19Z
+2026-04-08 06:20:19,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:19Z
+2026-04-08 06:20:19,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:19Z
+2026-04-08 06:20:24,747 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:24,763 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:24Z
+2026-04-08 06:20:24,778 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:24Z
+2026-04-08 06:20:24,789 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:24Z
+2026-04-08 06:20:24,800 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:24Z
+2026-04-08 06:20:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:29,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:29Z
+2026-04-08 06:20:29,772 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:29Z
+2026-04-08 06:20:29,787 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:29Z
+2026-04-08 06:20:29,802 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:29Z
+2026-04-08 06:20:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:34Z
+2026-04-08 06:20:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:34Z
+2026-04-08 06:20:34,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:34Z
+2026-04-08 06:20:34,794 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:34Z
+2026-04-08 06:20:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:39Z
+2026-04-08 06:20:39,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:39Z
+2026-04-08 06:20:39,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:39Z
+2026-04-08 06:20:39,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:39Z
+2026-04-08 06:20:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:44Z
+2026-04-08 06:20:44,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:44Z
+2026-04-08 06:20:44,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:44Z
+2026-04-08 06:20:44,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:44Z
+2026-04-08 06:20:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:49Z
+2026-04-08 06:20:49,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:49Z
+2026-04-08 06:20:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:49Z
+2026-04-08 06:20:49,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:49Z
+2026-04-08 06:20:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:54,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:54Z
+2026-04-08 06:20:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:54Z
+2026-04-08 06:20:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:54Z
+2026-04-08 06:20:54,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:54Z
+2026-04-08 06:20:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:20:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:20:59Z
+2026-04-08 06:20:59,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:20:59Z
+2026-04-08 06:20:59,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:20:59Z
+2026-04-08 06:20:59,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:20:59Z
+2026-04-08 06:21:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:04,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:04Z
+2026-04-08 06:21:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:04Z
+2026-04-08 06:21:04,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:04Z
+2026-04-08 06:21:04,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:04Z
+2026-04-08 06:21:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:09Z
+2026-04-08 06:21:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:09Z
+2026-04-08 06:21:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:09Z
+2026-04-08 06:21:09,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:09Z
+2026-04-08 06:21:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:14,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:14Z
+2026-04-08 06:21:14,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:14Z
+2026-04-08 06:21:14,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:14Z
+2026-04-08 06:21:14,792 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:14Z
+2026-04-08 06:21:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:19Z
+2026-04-08 06:21:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:19Z
+2026-04-08 06:21:19,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:19Z
+2026-04-08 06:21:19,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:19Z
+2026-04-08 06:21:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:24Z
+2026-04-08 06:21:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:24Z
+2026-04-08 06:21:24,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:24Z
+2026-04-08 06:21:24,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:24Z
+2026-04-08 06:21:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:29Z
+2026-04-08 06:21:29,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:29Z
+2026-04-08 06:21:29,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:29Z
+2026-04-08 06:21:29,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:29Z
+2026-04-08 06:21:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:34Z
+2026-04-08 06:21:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:34Z
+2026-04-08 06:21:34,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:34Z
+2026-04-08 06:21:34,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:34Z
+2026-04-08 06:21:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:39Z
+2026-04-08 06:21:39,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:39Z
+2026-04-08 06:21:39,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:39Z
+2026-04-08 06:21:39,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:39Z
+2026-04-08 06:21:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:44Z
+2026-04-08 06:21:44,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:44Z
+2026-04-08 06:21:44,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:44Z
+2026-04-08 06:21:44,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:44Z
+2026-04-08 06:21:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:49,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:49Z
+2026-04-08 06:21:49,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:49Z
+2026-04-08 06:21:49,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:49Z
+2026-04-08 06:21:49,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:49Z
+2026-04-08 06:21:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:54Z
+2026-04-08 06:21:54,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:54Z
+2026-04-08 06:21:54,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:54Z
+2026-04-08 06:21:54,792 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:54Z
+2026-04-08 06:21:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:21:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:21:59Z
+2026-04-08 06:21:59,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:21:59Z
+2026-04-08 06:21:59,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:21:59Z
+2026-04-08 06:21:59,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:21:59Z
+2026-04-08 06:22:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:04Z
+2026-04-08 06:22:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:04Z
+2026-04-08 06:22:04,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:04Z
+2026-04-08 06:22:04,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:04Z
+2026-04-08 06:22:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:09,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:09Z
+2026-04-08 06:22:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:09Z
+2026-04-08 06:22:09,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:09Z
+2026-04-08 06:22:09,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:09Z
+2026-04-08 06:22:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:14Z
+2026-04-08 06:22:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:14Z
+2026-04-08 06:22:14,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:14Z
+2026-04-08 06:22:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:14Z
+2026-04-08 06:22:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:19Z
+2026-04-08 06:22:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:19Z
+2026-04-08 06:22:19,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:19Z
+2026-04-08 06:22:19,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:19Z
+2026-04-08 06:22:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:24Z
+2026-04-08 06:22:24,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:24Z
+2026-04-08 06:22:24,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:24Z
+2026-04-08 06:22:24,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:24Z
+2026-04-08 06:22:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:29,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:29Z
+2026-04-08 06:22:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:29Z
+2026-04-08 06:22:29,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:29Z
+2026-04-08 06:22:29,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:29Z
+2026-04-08 06:22:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:34Z
+2026-04-08 06:22:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:34Z
+2026-04-08 06:22:34,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:34Z
+2026-04-08 06:22:34,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:34Z
+2026-04-08 06:22:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:39Z
+2026-04-08 06:22:39,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:39Z
+2026-04-08 06:22:39,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:39Z
+2026-04-08 06:22:39,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:39Z
+2026-04-08 06:22:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:44Z
+2026-04-08 06:22:44,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:44Z
+2026-04-08 06:22:44,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:44Z
+2026-04-08 06:22:44,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:44Z
+2026-04-08 06:22:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:49Z
+2026-04-08 06:22:49,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:49Z
+2026-04-08 06:22:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:49Z
+2026-04-08 06:22:49,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:49Z
+2026-04-08 06:22:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:54Z
+2026-04-08 06:22:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:54Z
+2026-04-08 06:22:54,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:54Z
+2026-04-08 06:22:54,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:54Z
+2026-04-08 06:22:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:22:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:22:59Z
+2026-04-08 06:22:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:22:59Z
+2026-04-08 06:22:59,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:22:59Z
+2026-04-08 06:22:59,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:22:59Z
+2026-04-08 06:23:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:04,778 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:04Z
+2026-04-08 06:23:04,790 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:04Z
+2026-04-08 06:23:04,802 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:04Z
+2026-04-08 06:23:04,813 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:04Z
+2026-04-08 06:23:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:09,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:09Z
+2026-04-08 06:23:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:09Z
+2026-04-08 06:23:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:09Z
+2026-04-08 06:23:09,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:09Z
+2026-04-08 06:23:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:14Z
+2026-04-08 06:23:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:14Z
+2026-04-08 06:23:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:14Z
+2026-04-08 06:23:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:14Z
+2026-04-08 06:23:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:19Z
+2026-04-08 06:23:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:19Z
+2026-04-08 06:23:19,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:19Z
+2026-04-08 06:23:19,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:19Z
+2026-04-08 06:23:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:24Z
+2026-04-08 06:23:24,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:24Z
+2026-04-08 06:23:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:24Z
+2026-04-08 06:23:24,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:24Z
+2026-04-08 06:23:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:29Z
+2026-04-08 06:23:29,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:29Z
+2026-04-08 06:23:29,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:29Z
+2026-04-08 06:23:29,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:29Z
+2026-04-08 06:23:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:34Z
+2026-04-08 06:23:34,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:34Z
+2026-04-08 06:23:34,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:34Z
+2026-04-08 06:23:34,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:34Z
+2026-04-08 06:23:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:39Z
+2026-04-08 06:23:39,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:39Z
+2026-04-08 06:23:39,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:39Z
+2026-04-08 06:23:39,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:39Z
+2026-04-08 06:23:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:44Z
+2026-04-08 06:23:44,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:44Z
+2026-04-08 06:23:44,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:44Z
+2026-04-08 06:23:44,787 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:44Z
+2026-04-08 06:23:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:49Z
+2026-04-08 06:23:49,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:49Z
+2026-04-08 06:23:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:49Z
+2026-04-08 06:23:49,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:49Z
+2026-04-08 06:23:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:54Z
+2026-04-08 06:23:54,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:54Z
+2026-04-08 06:23:54,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:54Z
+2026-04-08 06:23:54,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:54Z
+2026-04-08 06:23:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:23:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:23:59Z
+2026-04-08 06:23:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:23:59Z
+2026-04-08 06:23:59,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:23:59Z
+2026-04-08 06:23:59,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:23:59Z
+2026-04-08 06:24:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:04Z
+2026-04-08 06:24:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:04Z
+2026-04-08 06:24:04,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:04Z
+2026-04-08 06:24:04,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:04Z
+2026-04-08 06:24:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:09Z
+2026-04-08 06:24:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:09Z
+2026-04-08 06:24:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:09Z
+2026-04-08 06:24:09,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:09Z
+2026-04-08 06:24:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:14Z
+2026-04-08 06:24:14,770 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:14Z
+2026-04-08 06:24:14,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:14Z
+2026-04-08 06:24:14,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:14Z
+2026-04-08 06:24:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:19,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:19Z
+2026-04-08 06:24:19,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:19Z
+2026-04-08 06:24:19,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:19Z
+2026-04-08 06:24:19,792 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:19Z
+2026-04-08 06:24:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:24Z
+2026-04-08 06:24:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:24Z
+2026-04-08 06:24:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:24Z
+2026-04-08 06:24:24,789 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:24Z
+2026-04-08 06:24:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:29Z
+2026-04-08 06:24:29,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:29Z
+2026-04-08 06:24:29,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:29Z
+2026-04-08 06:24:29,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:29Z
+2026-04-08 06:24:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:34Z
+2026-04-08 06:24:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:34Z
+2026-04-08 06:24:34,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:34Z
+2026-04-08 06:24:34,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:34Z
+2026-04-08 06:24:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:39,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:39Z
+2026-04-08 06:24:39,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:39Z
+2026-04-08 06:24:39,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:39Z
+2026-04-08 06:24:39,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:39Z
+2026-04-08 06:24:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:44Z
+2026-04-08 06:24:44,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:44Z
+2026-04-08 06:24:44,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:44Z
+2026-04-08 06:24:44,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:44Z
+2026-04-08 06:24:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:49,760 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:49Z
+2026-04-08 06:24:49,773 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:49Z
+2026-04-08 06:24:49,784 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:49Z
+2026-04-08 06:24:49,795 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:49Z
+2026-04-08 06:24:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:54Z
+2026-04-08 06:24:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:54Z
+2026-04-08 06:24:54,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:54Z
+2026-04-08 06:24:54,793 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:54Z
+2026-04-08 06:24:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:24:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:24:59Z
+2026-04-08 06:24:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:24:59Z
+2026-04-08 06:24:59,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:24:59Z
+2026-04-08 06:24:59,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:24:59Z
+2026-04-08 06:25:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:04,765 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:04Z
+2026-04-08 06:25:04,777 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:04Z
+2026-04-08 06:25:04,787 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:04Z
+2026-04-08 06:25:04,799 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:25:04Z
+2026-04-08 06:25:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:09Z
+2026-04-08 06:25:09,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:09Z
+2026-04-08 06:25:09,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:09Z
+2026-04-08 06:25:09,791 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:25:09Z
+2026-04-08 06:25:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:14Z
+2026-04-08 06:25:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:14Z
+2026-04-08 06:25:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:14Z
+2026-04-08 06:25:14,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:25:14Z
+2026-04-08 06:25:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:19Z
+2026-04-08 06:25:19,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:19Z
+2026-04-08 06:25:19,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:19Z
+2026-04-08 06:25:19,788 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:25:19Z
+2026-04-08 06:25:24,747 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:24,769 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:24Z
+2026-04-08 06:25:24,798 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:24Z
+2026-04-08 06:25:24,820 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:24Z
+2026-04-08 06:25:24,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:25:24Z
+2026-04-08 06:25:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:29,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:29Z
+2026-04-08 06:25:29,772 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:29Z
+2026-04-08 06:25:29,786 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:29Z
+2026-04-08 06:25:29,795 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:29Z
+2026-04-08 06:25:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:34,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:34Z
+2026-04-08 06:25:34,773 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:34Z
+2026-04-08 06:25:34,788 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:34Z
+2026-04-08 06:25:34,798 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:34Z
+2026-04-08 06:25:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:39Z
+2026-04-08 06:25:39,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:39Z
+2026-04-08 06:25:39,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:39Z
+2026-04-08 06:25:39,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:39Z
+2026-04-08 06:25:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:44Z
+2026-04-08 06:25:44,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:44Z
+2026-04-08 06:25:44,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:44Z
+2026-04-08 06:25:44,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:44Z
+2026-04-08 06:25:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:49Z
+2026-04-08 06:25:49,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:49Z
+2026-04-08 06:25:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:49Z
+2026-04-08 06:25:49,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:49Z
+2026-04-08 06:25:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:54,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:54Z
+2026-04-08 06:25:54,775 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:54Z
+2026-04-08 06:25:54,790 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:54Z
+2026-04-08 06:25:54,804 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:54Z
+2026-04-08 06:25:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:25:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:25:59Z
+2026-04-08 06:25:59,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:25:59Z
+2026-04-08 06:25:59,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:25:59Z
+2026-04-08 06:25:59,790 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:25:59Z
+2026-04-08 06:26:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:04,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:04Z
+2026-04-08 06:26:04,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:04Z
+2026-04-08 06:26:04,784 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:04Z
+2026-04-08 06:26:04,796 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:04Z
+2026-04-08 06:26:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:09Z
+2026-04-08 06:26:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:09Z
+2026-04-08 06:26:09,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:09Z
+2026-04-08 06:26:09,808 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:09Z
+2026-04-08 06:26:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:14Z
+2026-04-08 06:26:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:14Z
+2026-04-08 06:26:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:14Z
+2026-04-08 06:26:14,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:14Z
+2026-04-08 06:26:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:19,760 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:19Z
+2026-04-08 06:26:19,774 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:19Z
+2026-04-08 06:26:19,785 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:19Z
+2026-04-08 06:26:19,794 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:19Z
+2026-04-08 06:26:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:24Z
+2026-04-08 06:26:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:24Z
+2026-04-08 06:26:24,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:24Z
+2026-04-08 06:26:24,795 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:24Z
+2026-04-08 06:26:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:29,760 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:29Z
+2026-04-08 06:26:29,774 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:29Z
+2026-04-08 06:26:29,790 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:29Z
+2026-04-08 06:26:29,819 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:29Z
+2026-04-08 06:26:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:34Z
+2026-04-08 06:26:34,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:34Z
+2026-04-08 06:26:34,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:34Z
+2026-04-08 06:26:34,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:34Z
+2026-04-08 06:26:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:39Z
+2026-04-08 06:26:39,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:39Z
+2026-04-08 06:26:39,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:39Z
+2026-04-08 06:26:39,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:39Z
+2026-04-08 06:26:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:44Z
+2026-04-08 06:26:44,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:44Z
+2026-04-08 06:26:44,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:44Z
+2026-04-08 06:26:44,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:44Z
+2026-04-08 06:26:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:49Z
+2026-04-08 06:26:49,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:49Z
+2026-04-08 06:26:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:49Z
+2026-04-08 06:26:49,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:49Z
+2026-04-08 06:26:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:54,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:54Z
+2026-04-08 06:26:54,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:54Z
+2026-04-08 06:26:54,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:54Z
+2026-04-08 06:26:54,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:54Z
+2026-04-08 06:26:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:26:59,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:26:59Z
+2026-04-08 06:26:59,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:26:59Z
+2026-04-08 06:26:59,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:26:59Z
+2026-04-08 06:26:59,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:26:59Z
+2026-04-08 06:27:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:04Z
+2026-04-08 06:27:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:04Z
+2026-04-08 06:27:04,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:04Z
+2026-04-08 06:27:04,790 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:04Z
+2026-04-08 06:27:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:09Z
+2026-04-08 06:27:09,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:09Z
+2026-04-08 06:27:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:09Z
+2026-04-08 06:27:09,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:09Z
+2026-04-08 06:27:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:14,761 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:14Z
+2026-04-08 06:27:14,775 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:14Z
+2026-04-08 06:27:14,787 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:14Z
+2026-04-08 06:27:14,797 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:14Z
+2026-04-08 06:27:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:19Z
+2026-04-08 06:27:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:19Z
+2026-04-08 06:27:19,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:19Z
+2026-04-08 06:27:19,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:19Z
+2026-04-08 06:27:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:24,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:24Z
+2026-04-08 06:27:24,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:24Z
+2026-04-08 06:27:24,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:24Z
+2026-04-08 06:27:24,790 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:24Z
+2026-04-08 06:27:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:29Z
+2026-04-08 06:27:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:29Z
+2026-04-08 06:27:29,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:29Z
+2026-04-08 06:27:29,786 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:29Z
+2026-04-08 06:27:34,748 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:34,770 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:34Z
+2026-04-08 06:27:34,794 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:34Z
+2026-04-08 06:27:34,818 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:34Z
+2026-04-08 06:27:34,835 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:34Z
+2026-04-08 06:27:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:39,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:39Z
+2026-04-08 06:27:39,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:39Z
+2026-04-08 06:27:39,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:39Z
+2026-04-08 06:27:39,792 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:39Z
+2026-04-08 06:27:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:44Z
+2026-04-08 06:27:44,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:44Z
+2026-04-08 06:27:44,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:44Z
+2026-04-08 06:27:44,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:44Z
+2026-04-08 06:27:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:49Z
+2026-04-08 06:27:49,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:49Z
+2026-04-08 06:27:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:49Z
+2026-04-08 06:27:49,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:49Z
+2026-04-08 06:27:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:54Z
+2026-04-08 06:27:54,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:54Z
+2026-04-08 06:27:54,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:54Z
+2026-04-08 06:27:54,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:54Z
+2026-04-08 06:27:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:27:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:27:59Z
+2026-04-08 06:27:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:27:59Z
+2026-04-08 06:27:59,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:27:59Z
+2026-04-08 06:27:59,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:27:59Z
+2026-04-08 06:28:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:04,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:04Z
+2026-04-08 06:28:04,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:04Z
+2026-04-08 06:28:04,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:04Z
+2026-04-08 06:28:04,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:04Z
+2026-04-08 06:28:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:09,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:09Z
+2026-04-08 06:28:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:09Z
+2026-04-08 06:28:09,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:09Z
+2026-04-08 06:28:09,791 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:09Z
+2026-04-08 06:28:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:14,758 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:14Z
+2026-04-08 06:28:14,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:14Z
+2026-04-08 06:28:14,783 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:14Z
+2026-04-08 06:28:14,795 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:14Z
+2026-04-08 06:28:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:19,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:19Z
+2026-04-08 06:28:19,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:19Z
+2026-04-08 06:28:19,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:19Z
+2026-04-08 06:28:19,790 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:19Z
+2026-04-08 06:28:24,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:24,759 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:24Z
+2026-04-08 06:28:24,770 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:24Z
+2026-04-08 06:28:24,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:24Z
+2026-04-08 06:28:24,790 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:24Z
+2026-04-08 06:28:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:29,764 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:29Z
+2026-04-08 06:28:29,775 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:29Z
+2026-04-08 06:28:29,785 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:29Z
+2026-04-08 06:28:29,795 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:29Z
+2026-04-08 06:28:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:34,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:34Z
+2026-04-08 06:28:34,769 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:34Z
+2026-04-08 06:28:34,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:34Z
+2026-04-08 06:28:34,793 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:34Z
+2026-04-08 06:28:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:39Z
+2026-04-08 06:28:39,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:39Z
+2026-04-08 06:28:39,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:39Z
+2026-04-08 06:28:39,789 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:39Z
+2026-04-08 06:28:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:44,761 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:44Z
+2026-04-08 06:28:44,775 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:44Z
+2026-04-08 06:28:44,785 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:44Z
+2026-04-08 06:28:44,795 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:44Z
+2026-04-08 06:28:49,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:49,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:49Z
+2026-04-08 06:28:49,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:49Z
+2026-04-08 06:28:49,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:49Z
+2026-04-08 06:28:49,792 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:49Z
+2026-04-08 06:28:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:54,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:54Z
+2026-04-08 06:28:54,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:54Z
+2026-04-08 06:28:54,781 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:54Z
+2026-04-08 06:28:54,794 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:54Z
+2026-04-08 06:28:59,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:28:59,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:28:59Z
+2026-04-08 06:28:59,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:28:59Z
+2026-04-08 06:28:59,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:28:59Z
+2026-04-08 06:28:59,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:28:59Z
+2026-04-08 06:29:04,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:04,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:04Z
+2026-04-08 06:29:04,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:04Z
+2026-04-08 06:29:04,780 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:04Z
+2026-04-08 06:29:04,791 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:04Z
+2026-04-08 06:29:09,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:09,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:09Z
+2026-04-08 06:29:09,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:09Z
+2026-04-08 06:29:09,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:09Z
+2026-04-08 06:29:09,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:09Z
+2026-04-08 06:29:14,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:14,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:14Z
+2026-04-08 06:29:14,768 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:14Z
+2026-04-08 06:29:14,779 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:14Z
+2026-04-08 06:29:14,788 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:14Z
+2026-04-08 06:29:19,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:19,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:19Z
+2026-04-08 06:29:19,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:19Z
+2026-04-08 06:29:19,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:19Z
+2026-04-08 06:29:19,786 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:19Z
+2026-04-08 06:29:24,747 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:24,768 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:24Z
+2026-04-08 06:29:24,796 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:24Z
+2026-04-08 06:29:24,814 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:24Z
+2026-04-08 06:29:24,823 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:24Z
+2026-04-08 06:29:29,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:29,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:29Z
+2026-04-08 06:29:29,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:29Z
+2026-04-08 06:29:29,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:29Z
+2026-04-08 06:29:29,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:29Z
+2026-04-08 06:29:34,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:34,763 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:34Z
+2026-04-08 06:29:34,778 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:34Z
+2026-04-08 06:29:34,798 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:34Z
+2026-04-08 06:29:34,813 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:34Z
+2026-04-08 06:29:39,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:39,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:39Z
+2026-04-08 06:29:39,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:39Z
+2026-04-08 06:29:39,778 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:39Z
+2026-04-08 06:29:39,791 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:39Z
+2026-04-08 06:29:44,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:44,757 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:44Z
+2026-04-08 06:29:44,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:44Z
+2026-04-08 06:29:44,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:44Z
+2026-04-08 06:29:44,787 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:44Z
+2026-04-08 06:29:49,748 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:49,761 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:49Z
+2026-04-08 06:29:49,773 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:49Z
+2026-04-08 06:29:49,788 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:49Z
+2026-04-08 06:29:49,800 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:49Z
+2026-04-08 06:29:54,746 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:29:54,756 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:29:54Z
+2026-04-08 06:29:54,767 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:29:54Z
+2026-04-08 06:29:54,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:29:54Z
+2026-04-08 06:29:54,790 - basicLogger - INFO - Recorded analyzer service as Down at 2026-04-08T06:29:54Z
+2026-04-08 06:32:11,736 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:11,751 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:11Z
+2026-04-08 06:32:11,764 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:11Z
+2026-04-08 06:32:11,777 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:11Z
+2026-04-08 06:32:11,790 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:11Z
+2026-04-08 06:32:16,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:16,807 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:16Z
+2026-04-08 06:32:16,818 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:16Z
+2026-04-08 06:32:16,829 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:16Z
+2026-04-08 06:32:16,841 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:16Z
+2026-04-08 06:32:21,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:21,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:21Z
+2026-04-08 06:32:21,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:21Z
+2026-04-08 06:32:21,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:21Z
+2026-04-08 06:32:21,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:21Z
+2026-04-08 06:32:26,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:26,811 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:26Z
+2026-04-08 06:32:26,827 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:26Z
+2026-04-08 06:32:26,842 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:26Z
+2026-04-08 06:32:26,853 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:26Z
+2026-04-08 06:32:31,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:31,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:31Z
+2026-04-08 06:32:31,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:31Z
+2026-04-08 06:32:31,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:31Z
+2026-04-08 06:32:31,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:31Z
+2026-04-08 06:32:36,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:36,808 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:36Z
+2026-04-08 06:32:36,821 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:36Z
+2026-04-08 06:32:36,840 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:36Z
+2026-04-08 06:32:36,859 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:36Z
+2026-04-08 06:32:41,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:41,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:41Z
+2026-04-08 06:32:41,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:41Z
+2026-04-08 06:32:41,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:41Z
+2026-04-08 06:32:41,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:41Z
+2026-04-08 06:32:46,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:46,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:46Z
+2026-04-08 06:32:46,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:46Z
+2026-04-08 06:32:46,828 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:46Z
+2026-04-08 06:32:46,845 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:46Z
+2026-04-08 06:32:51,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:51,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:51Z
+2026-04-08 06:32:51,817 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:51Z
+2026-04-08 06:32:51,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:51Z
+2026-04-08 06:32:51,839 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:51Z
+2026-04-08 06:32:56,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:32:56,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:32:56Z
+2026-04-08 06:32:56,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:32:56Z
+2026-04-08 06:32:56,825 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:32:56Z
+2026-04-08 06:32:56,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:32:56Z
+2026-04-08 06:33:01,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:01,816 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:01Z
+2026-04-08 06:33:01,852 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:01Z
+2026-04-08 06:33:01,873 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:01Z
+2026-04-08 06:33:01,894 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:01Z
+2026-04-08 06:33:06,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:06,807 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:06Z
+2026-04-08 06:33:06,818 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:06Z
+2026-04-08 06:33:06,828 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:06Z
+2026-04-08 06:33:06,842 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:06Z
+2026-04-08 06:33:11,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:11,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:11Z
+2026-04-08 06:33:11,819 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:11Z
+2026-04-08 06:33:11,833 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:11Z
+2026-04-08 06:33:11,849 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:11Z
+2026-04-08 06:33:16,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:16,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:16Z
+2026-04-08 06:33:16,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:16Z
+2026-04-08 06:33:16,825 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:16Z
+2026-04-08 06:33:16,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:16Z
+2026-04-08 06:33:21,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:21,806 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:21Z
+2026-04-08 06:33:21,817 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:21Z
+2026-04-08 06:33:21,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:21Z
+2026-04-08 06:33:21,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:21Z
+2026-04-08 06:33:26,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:26,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:26Z
+2026-04-08 06:33:26,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:26Z
+2026-04-08 06:33:26,825 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:26Z
+2026-04-08 06:33:26,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:26Z
+2026-04-08 06:33:31,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:31,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:31Z
+2026-04-08 06:33:31,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:31Z
+2026-04-08 06:33:31,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:31Z
+2026-04-08 06:33:31,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:31Z
+2026-04-08 06:33:36,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:36,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:36Z
+2026-04-08 06:33:36,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:36Z
+2026-04-08 06:33:36,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:36Z
+2026-04-08 06:33:36,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:36Z
+2026-04-08 06:33:41,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:41,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:41Z
+2026-04-08 06:33:41,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:41Z
+2026-04-08 06:33:41,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:41Z
+2026-04-08 06:33:41,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:41Z
+2026-04-08 06:33:46,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:46,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:46Z
+2026-04-08 06:33:46,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:46Z
+2026-04-08 06:33:46,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:46Z
+2026-04-08 06:33:46,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:46Z
+2026-04-08 06:33:51,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:51,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:51Z
+2026-04-08 06:33:51,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:51Z
+2026-04-08 06:33:51,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:51Z
+2026-04-08 06:33:51,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:51Z
+2026-04-08 06:33:56,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:33:56,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:33:56Z
+2026-04-08 06:33:56,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:33:56Z
+2026-04-08 06:33:56,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:33:56Z
+2026-04-08 06:33:56,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:33:56Z
+2026-04-08 06:34:01,804 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:01,833 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:01Z
+2026-04-08 06:34:01,890 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:01Z
+2026-04-08 06:34:02,007 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:01Z
+2026-04-08 06:34:02,140 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:02Z
+2026-04-08 06:34:06,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:06,806 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:06Z
+2026-04-08 06:34:06,820 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:06Z
+2026-04-08 06:34:06,830 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:06Z
+2026-04-08 06:34:06,841 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:06Z
+2026-04-08 06:34:11,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:11,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:11Z
+2026-04-08 06:34:11,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:11Z
+2026-04-08 06:34:11,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:11Z
+2026-04-08 06:34:11,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:11Z
+2026-04-08 06:34:16,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:16,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:16Z
+2026-04-08 06:34:16,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:16Z
+2026-04-08 06:34:16,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:16Z
+2026-04-08 06:34:16,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:16Z
+2026-04-08 06:34:21,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:21,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:21Z
+2026-04-08 06:34:21,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:21Z
+2026-04-08 06:34:21,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:21Z
+2026-04-08 06:34:21,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:21Z
+2026-04-08 06:34:26,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:26,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:26Z
+2026-04-08 06:34:26,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:26Z
+2026-04-08 06:34:26,825 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:26Z
+2026-04-08 06:34:26,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:26Z
+2026-04-08 06:34:31,795 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:31,814 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:31Z
+2026-04-08 06:34:31,825 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:31Z
+2026-04-08 06:34:31,835 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:31Z
+2026-04-08 06:34:31,846 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:31Z
+2026-04-08 06:34:36,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:36,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:36Z
+2026-04-08 06:34:36,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:36Z
+2026-04-08 06:34:36,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:36Z
+2026-04-08 06:34:36,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:36Z
+2026-04-08 06:34:41,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:41,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:41Z
+2026-04-08 06:34:41,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:41Z
+2026-04-08 06:34:41,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:41Z
+2026-04-08 06:34:41,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:41Z
+2026-04-08 06:34:46,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:46,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:46Z
+2026-04-08 06:34:46,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:46Z
+2026-04-08 06:34:46,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:46Z
+2026-04-08 06:34:46,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:46Z
+2026-04-08 06:34:51,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:51,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:51Z
+2026-04-08 06:34:51,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:51Z
+2026-04-08 06:34:51,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:51Z
+2026-04-08 06:34:51,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:51Z
+2026-04-08 06:34:56,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:34:56,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:34:56Z
+2026-04-08 06:34:56,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:34:56Z
+2026-04-08 06:34:56,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:34:56Z
+2026-04-08 06:34:56,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:34:56Z
+2026-04-08 06:35:01,801 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:01,947 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:01Z
+2026-04-08 06:35:02,040 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:02Z
+2026-04-08 06:35:02,100 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:02Z
+2026-04-08 06:35:02,154 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:02Z
+2026-04-08 06:35:06,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:06,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:06Z
+2026-04-08 06:35:06,817 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:06Z
+2026-04-08 06:35:06,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:06Z
+2026-04-08 06:35:06,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:06Z
+2026-04-08 06:35:11,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:11,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:11Z
+2026-04-08 06:35:11,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:11Z
+2026-04-08 06:35:11,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:11Z
+2026-04-08 06:35:11,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:11Z
+2026-04-08 06:35:16,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:16,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:16Z
+2026-04-08 06:35:16,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:16Z
+2026-04-08 06:35:16,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:16Z
+2026-04-08 06:35:16,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:16Z
+2026-04-08 06:35:21,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:21,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:21Z
+2026-04-08 06:35:21,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:21Z
+2026-04-08 06:35:21,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:21Z
+2026-04-08 06:35:21,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:21Z
+2026-04-08 06:35:26,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:26,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:26Z
+2026-04-08 06:35:26,818 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:26Z
+2026-04-08 06:35:26,829 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:26Z
+2026-04-08 06:35:26,840 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:26Z
+2026-04-08 06:35:31,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:31,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:31Z
+2026-04-08 06:35:31,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:31Z
+2026-04-08 06:35:31,830 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:31Z
+2026-04-08 06:35:31,841 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:31Z
+2026-04-08 06:35:36,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:36,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:36Z
+2026-04-08 06:35:36,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:36Z
+2026-04-08 06:35:36,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:36Z
+2026-04-08 06:35:36,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:36Z
+2026-04-08 06:35:41,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:41,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:41Z
+2026-04-08 06:35:41,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:41Z
+2026-04-08 06:35:41,827 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:41Z
+2026-04-08 06:35:41,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:41Z
+2026-04-08 06:35:46,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:46,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:46Z
+2026-04-08 06:35:46,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:46Z
+2026-04-08 06:35:46,825 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:46Z
+2026-04-08 06:35:46,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:46Z
+2026-04-08 06:35:51,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:51,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:51Z
+2026-04-08 06:35:51,821 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:51Z
+2026-04-08 06:35:51,834 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:51Z
+2026-04-08 06:35:51,847 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:51Z
+2026-04-08 06:35:56,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:35:56,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:35:56Z
+2026-04-08 06:35:56,815 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:35:56Z
+2026-04-08 06:35:56,825 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:35:56Z
+2026-04-08 06:35:56,836 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:35:56Z
+2026-04-08 06:36:01,838 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:02,182 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:01Z
+2026-04-08 06:36:02,385 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:02Z
+2026-04-08 06:36:02,462 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:02Z
+2026-04-08 06:36:02,528 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:02Z
+2026-04-08 06:36:06,837 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:06,849 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:06Z
+2026-04-08 06:36:06,859 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:06Z
+2026-04-08 06:36:06,869 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:06Z
+2026-04-08 06:36:06,880 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:06Z
+2026-04-08 06:36:11,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:11,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:11Z
+2026-04-08 06:36:11,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:11Z
+2026-04-08 06:36:11,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:11Z
+2026-04-08 06:36:11,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:11Z
+2026-04-08 06:36:16,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:16,805 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:16Z
+2026-04-08 06:36:16,816 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:16Z
+2026-04-08 06:36:16,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:16Z
+2026-04-08 06:36:16,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:16Z
+2026-04-08 06:36:21,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:21,806 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:21Z
+2026-04-08 06:36:21,817 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:21Z
+2026-04-08 06:36:21,826 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:21Z
+2026-04-08 06:36:21,837 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:21Z
+2026-04-08 06:36:26,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:26,807 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:26Z
+2026-04-08 06:36:26,820 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:26Z
+2026-04-08 06:36:26,831 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:26Z
+2026-04-08 06:36:26,841 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:26Z
+2026-04-08 06:36:31,794 - basicLogger - INFO - Running scheduled health check poll
+2026-04-08 06:36:31,806 - basicLogger - INFO - Recorded receiver service as Up at 2026-04-08T06:36:31Z
+2026-04-08 06:36:31,817 - basicLogger - INFO - Recorded storage service as Up at 2026-04-08T06:36:31Z
+2026-04-08 06:36:31,828 - basicLogger - INFO - Recorded processing service as Up at 2026-04-08T06:36:31Z
+2026-04-08 06:36:31,838 - basicLogger - INFO - Recorded analyzer service as Up at 2026-04-08T06:36:31Z

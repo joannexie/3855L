@@ -5,6 +5,17 @@ info:
   description: Stores checklist events in a database (events are consumed from Kafka). Only supports GET queries via HTTP.
 
 paths:
+  /health:
+    get:
+      summary: Health check
+      operationId: app.health
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
   /todo/checklist-items:
     get:
       summary: Get checklist item events by timespan
@@ -17,14 +28,14 @@ paths:
           schema:
             type: string
             format: date-time
-            example: "2026-01-13T00:00:00.000Z"
+            
         - name: end_timestamp
           in: query
           required: true
           schema:
             type: string
             format: date-time
-            example: "2026-01-14T00:00:00.000Z"
+           
       responses:
         '200':
           description: Successfully returned checklist item events
@@ -49,14 +60,14 @@ paths:
           schema:
             type: string
             format: date-time
-            example: "2026-01-13T00:00:00.000Z"
+            
         - name: end_timestamp
           in: query
           required: true
           schema:
             type: string
             format: date-time
-            example: "2026-01-14T00:00:00.000Z"
+            
       responses:
         '200':
           description: Successfully returned checklist summary events
@@ -71,6 +82,12 @@ paths:
 
 components:
   schemas:
+    HealthResponse:
+      type: object
+      properties:
+        status:
+          type: string
+          example: Storage is healthy
     ChecklistItemEvent:
       type: object
       required:
@@ -85,32 +102,29 @@ components:
       properties:
         trace_id:
           type: string
-          format: uuid
-          example: b0d2f6e6-7f09-4a26-9ee5-0f3f2b4d3c11
+          
         sender_id:
           type: string
-          format: uuid
-          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+          
         sent_timestamp:
           type: string
-          format: date-time
-          example: "2026-01-13T21:12:33.001Z"
+          
         list_name:
           type: string
-          example: Daily To-Do List
+          
         item_name:
           type: string
-          example: Finish ACIT3855 Lab 1
+          
         completed:
           type: boolean
-          example: true
+          
         completed_at:
           type: string
           format: date-time
-          example: "2026-01-13T21:10:00.000Z"
+          
         estimated_mins:
           type: integer
-          example: 45
+          
 
     ChecklistSummaryEvent:
       type: object
@@ -125,26 +139,24 @@ components:
       properties:
         trace_id:
           type: string
-          format: uuid
-          example: b0d2f6e6-7f09-4a26-9ee5-0f3f2b4d3c11
+          
         sender_id:
           type: string
-          format: uuid
-          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+          
         sent_timestamp:
           type: string
           format: date-time
-          example: "2026-01-13T23:00:00.000Z"
+          
         list_name:
           type: string
-          example: Daily To-Do List
+          
         items_completed:
           type: integer
-          example: 7
+          
         items_total:
           type: integer
-          example: 10
+          
         summary_at:
           type: string
           format: date-time
-          example: "2026-01-13T22:59:59.000Z"
+          

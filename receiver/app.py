@@ -132,6 +132,14 @@ def _build_message(event_type: str, payload: dict):
         "payload": payload
     }
 
+# A1: new health endpoint
+def health():
+    """
+    GET /health
+    Returns 200 if receiver service is running.
+    """
+    return {"status": "Receiver is healthy"}, 200
+
 
 def report_checklist_item_events(body):
     """

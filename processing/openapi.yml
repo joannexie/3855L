@@ -5,6 +5,17 @@ info:
   description: Computes statistics from events stored in the storage service.
 
 paths:
+  /health: # A1: health check endpoint
+    get:
+      summary: Health check
+      operationId: app.health
+      responses:
+        '200':
+          description: Service is healthy
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthResponse'
   /stats:
     get:
       summary: Get checklist stats
@@ -26,6 +37,12 @@ paths:
 
 components:
   schemas:
+    HealthResponse: # A1: health check response schema
+      type: object
+      properties:
+        status:
+          type: string
+          example: Processing is healthy
     ChecklistStats:
       type: object
       required:
@@ -37,23 +54,23 @@ components:
       properties:
         num_checklist_item_events:
           type: integer
-          example: 12
+         
         num_checklist_summary_events:
           type: integer
-          example: 4
+          
         max_estimated_mins:
           type: integer
           nullable: true
-          example: 60
+         
         max_items_completed:
           type: integer
           nullable: true
-          example: 9
+         
         last_updated:
           type: string
           format: date-time
           nullable: true
-          example: "2026-02-10T19:05:10Z"
+      
 
     ErrorMessage:
       type: object
@@ -62,4 +79,4 @@ components:
       properties:
         message:
           type: string
-          example: Statistics do not exist
+          
