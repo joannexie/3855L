@@ -4,6 +4,12 @@ services:
     restart: unless-stopped
     volumes:
       - zookeeper-data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/localhost/2181'"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
 
   kafka:
     image: wurstmeister/kafka
@@ -17,7 +23,14 @@ services:
     volumes:
       - kafka-data:/kafka
     depends_on:
-      - zookeeper
+      zookeeper:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c '</dev/tcp/localhost/9092'"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
 
   mysql:
     image: mysql:8
@@ -29,6 +42,12 @@ services:
       MYSQL_PASSWORD: "todo_pass"
     volumes:
       - my-db:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "todo_user", "-ptodo_pass"]
+      interval: 10s
+      timeout: 5s
+      retries: 15
+      start_period: 20s
 
   receiver:
     build:
@@ -36,12 +55,19 @@ services:
       dockerfile: Dockerfile
     restart: on-failure
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
     ports:
       - "8080:8080"
     volumes:
       - ./config:/config
       - ./logs:/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.create_connection(('localhost', 8080), 2); s.close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 15s
 
   storage:
     build:
@@ -49,11 +75,19 @@ services:
       dockerfile: Dockerfile
     restart: on-failure
     depends_on:
-      - mysql
-      - kafka
+      mysql:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
     volumes:
       - ./config:/config
       - ./logs:/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.create_connection(('localhost', 8090), 2); s.close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
 
   processing:
     build:
@@ -61,13 +95,20 @@ services:
       dockerfile: Dockerfile
     restart: on-failure
     depends_on:
-      - storage
+      storage:
+        condition: service_healthy
     ports:
       - "8100:8100"
     volumes:
       - ./config:/config
       - ./logs:/logs
       - ./data/processing:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.create_connection(('localhost', 8100), 2); s.close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
 
   analyzer:
     build:
@@ -75,12 +116,19 @@ services:
       dockerfile: Dockerfile
     restart: on-failure
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
     ports:
       - "8110:8110"
     volumes:
       - ./config:/config
       - ./logs:/logs
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.create_connection(('localhost', 8110), 2); s.close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
 
   dashboard:
     build:
@@ -88,8 +136,10 @@ services:
       dockerfile: Dockerfile
     restart: unless-stopped
     depends_on:
-      - processing
-      - analyzer
+      processing:
+        condition: service_healthy
+      analyzer:
+        condition: service_healthy
     ports:
       - "3000:80"
 

@@ -8667,3 +8667,774 @@
 2026-04-01 20:05:26,175 - basicLogger - INFO - Request received: GET /stats
 2026-04-01 20:05:26,176 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 293, 'num_checklist_summary_events': 239, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-01T20:05:25Z'}
 2026-04-01 20:05:26,176 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:03,966 - apscheduler.scheduler - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2026-04-08 05:14:03,967 - apscheduler.scheduler - INFO - Added job "populate_stats" to job store "default"
+2026-04-08 05:14:03,967 - apscheduler.scheduler - INFO - Scheduler started
+2026-04-08 05:14:03,967 - apscheduler.scheduler - DEBUG - Looking for jobs to run
+2026-04-08 05:14:03,968 - apscheduler.scheduler - DEBUG - Next wakeup is due at 2026-04-08 05:14:08.966474+00:00 (in 4.998147 seconds)
+2026-04-08 05:14:04,105 - connexion.middleware.abstract - DEBUG - Adding /stats...
+2026-04-08 05:14:08,967 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:09,007 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:09,007 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 293, 'num_checklist_summary_events': 239, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:08Z'}
+2026-04-08 05:14:09,007 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:13,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:13,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:13,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 293, 'num_checklist_summary_events': 239, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:13Z'}
+2026-04-08 05:14:13,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:15,082 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:15,082 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 293, 'num_checklist_summary_events': 239, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:13Z'}
+2026-04-08 05:14:15,083 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:16,812 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:16,813 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 293, 'num_checklist_summary_events': 239, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:13Z'}
+2026-04-08 05:14:16,813 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:18,146 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:18,147 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 293, 'num_checklist_summary_events': 239, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:13Z'}
+2026-04-08 05:14:18,148 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:18,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:18,983 - basicLogger - INFO - Received 2 checklist item events and 2 checklist summary events
+2026-04-08 05:14:18,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 295, 'num_checklist_summary_events': 241, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:18Z'}
+2026-04-08 05:14:18,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:19,843 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:19,844 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 295, 'num_checklist_summary_events': 241, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:18Z'}
+2026-04-08 05:14:19,844 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:21,064 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:21,064 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 295, 'num_checklist_summary_events': 241, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:18Z'}
+2026-04-08 05:14:21,065 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:22,422 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:22,422 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 295, 'num_checklist_summary_events': 241, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:18Z'}
+2026-04-08 05:14:22,422 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:23,605 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:23,605 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 295, 'num_checklist_summary_events': 241, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:18Z'}
+2026-04-08 05:14:23,605 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:23,967 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:23,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:14:23,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 299, 'num_checklist_summary_events': 245, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:23Z'}
+2026-04-08 05:14:23,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:24,922 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:24,922 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 299, 'num_checklist_summary_events': 245, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:23Z'}
+2026-04-08 05:14:24,922 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:26,174 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:26,174 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 299, 'num_checklist_summary_events': 245, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:23Z'}
+2026-04-08 05:14:26,174 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:27,455 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:27,455 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 299, 'num_checklist_summary_events': 245, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:23Z'}
+2026-04-08 05:14:27,455 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:28,967 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:28,994 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:14:28,994 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:28Z'}
+2026-04-08 05:14:28,995 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:33,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:33,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:33,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:33Z'}
+2026-04-08 05:14:33,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:38,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:38,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:38,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:38Z'}
+2026-04-08 05:14:38,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:43,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:43,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:43,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:43Z'}
+2026-04-08 05:14:43,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:48,583 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:48,584 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:43Z'}
+2026-04-08 05:14:48,584 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:48,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:48,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:48,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:48Z'}
+2026-04-08 05:14:48,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:52,550 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:52,550 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:48Z'}
+2026-04-08 05:14:52,550 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:53,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:53,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:53,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:53Z'}
+2026-04-08 05:14:53,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:14:56,679 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:14:56,680 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:53Z'}
+2026-04-08 05:14:56,680 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:14:58,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:14:58,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:14:58,981 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:58Z'}
+2026-04-08 05:14:58,981 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:00,673 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:00,674 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:58Z'}
+2026-04-08 05:15:00,674 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:03,595 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:03,596 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:14:58Z'}
+2026-04-08 05:15:03,596 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:03,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:03,990 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:15:03,990 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:03,991 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:04,670 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:04,670 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:04,671 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:04,784 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:04,785 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:04,785 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:06,093 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:06,093 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:06,093 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:07,278 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:07,278 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:07,278 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:08,471 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:08,472 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:08,472 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:08,553 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:08,554 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 303, 'num_checklist_summary_events': 249, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:03Z'}
+2026-04-08 05:15:08,554 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:08,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:08,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:08,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 307, 'num_checklist_summary_events': 253, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:08Z'}
+2026-04-08 05:15:08,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:09,630 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:09,630 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 307, 'num_checklist_summary_events': 253, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:08Z'}
+2026-04-08 05:15:09,630 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:10,793 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:10,793 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 307, 'num_checklist_summary_events': 253, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:08Z'}
+2026-04-08 05:15:10,793 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:12,036 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:12,036 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 307, 'num_checklist_summary_events': 253, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:08Z'}
+2026-04-08 05:15:12,036 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:12,679 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:12,680 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 307, 'num_checklist_summary_events': 253, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:08Z'}
+2026-04-08 05:15:12,680 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:13,268 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:13,268 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 307, 'num_checklist_summary_events': 253, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:08Z'}
+2026-04-08 05:15:13,268 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:13,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:13,994 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:13,995 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 311, 'num_checklist_summary_events': 257, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:13Z'}
+2026-04-08 05:15:13,995 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:14,429 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:14,430 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 311, 'num_checklist_summary_events': 257, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:13Z'}
+2026-04-08 05:15:14,430 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:15,606 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:15,607 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 311, 'num_checklist_summary_events': 257, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:13Z'}
+2026-04-08 05:15:15,607 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:16,669 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:16,669 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 311, 'num_checklist_summary_events': 257, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:13Z'}
+2026-04-08 05:15:16,670 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:16,763 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:16,764 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 311, 'num_checklist_summary_events': 257, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:13Z'}
+2026-04-08 05:15:16,764 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:17,918 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:17,918 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 311, 'num_checklist_summary_events': 257, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:13Z'}
+2026-04-08 05:15:17,918 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:18,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:18,985 - basicLogger - INFO - Received 5 checklist item events and 5 checklist summary events
+2026-04-08 05:15:18,986 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:18,986 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:19,076 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:19,076 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:19,076 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:20,351 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:20,351 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:20,352 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:20,674 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:20,674 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:20,675 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:21,558 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:21,558 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:21,559 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:22,728 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:22,728 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:22,729 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:23,904 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:23,904 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 316, 'num_checklist_summary_events': 262, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:18Z'}
+2026-04-08 05:15:23,904 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:23,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:23,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:23,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:23,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:24,681 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:24,682 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:24,683 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:25,164 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:25,164 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:25,164 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:26,332 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:26,332 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:26,332 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:27,495 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:27,495 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:27,495 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:28,671 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:28,671 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:28,671 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:28,684 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:28,684 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 320, 'num_checklist_summary_events': 266, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:23Z'}
+2026-04-08 05:15:28,685 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:28,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:28,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:28,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 324, 'num_checklist_summary_events': 270, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:28Z'}
+2026-04-08 05:15:28,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:29,850 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:29,850 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 324, 'num_checklist_summary_events': 270, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:28Z'}
+2026-04-08 05:15:29,850 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:31,020 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:31,021 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 324, 'num_checklist_summary_events': 270, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:28Z'}
+2026-04-08 05:15:31,021 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:32,439 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:32,439 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 324, 'num_checklist_summary_events': 270, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:28Z'}
+2026-04-08 05:15:32,440 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:32,687 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:32,688 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 324, 'num_checklist_summary_events': 270, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:28Z'}
+2026-04-08 05:15:32,688 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:33,604 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:33,604 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 324, 'num_checklist_summary_events': 270, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:28Z'}
+2026-04-08 05:15:33,604 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:33,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:33,982 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:33,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 328, 'num_checklist_summary_events': 274, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:33Z'}
+2026-04-08 05:15:33,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:34,770 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:34,771 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 328, 'num_checklist_summary_events': 274, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:33Z'}
+2026-04-08 05:15:34,771 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:36,018 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:36,018 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 328, 'num_checklist_summary_events': 274, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:33Z'}
+2026-04-08 05:15:36,018 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:36,674 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:36,675 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 328, 'num_checklist_summary_events': 274, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:33Z'}
+2026-04-08 05:15:36,675 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:37,250 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:37,250 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 328, 'num_checklist_summary_events': 274, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:33Z'}
+2026-04-08 05:15:37,250 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:38,457 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:38,458 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 328, 'num_checklist_summary_events': 274, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:33Z'}
+2026-04-08 05:15:38,458 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:38,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:38,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:38,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 332, 'num_checklist_summary_events': 278, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:38Z'}
+2026-04-08 05:15:38,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:39,670 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:39,670 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 332, 'num_checklist_summary_events': 278, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:38Z'}
+2026-04-08 05:15:39,670 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:40,676 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:40,676 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 332, 'num_checklist_summary_events': 278, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:38Z'}
+2026-04-08 05:15:40,677 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:40,880 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:40,880 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 332, 'num_checklist_summary_events': 278, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:38Z'}
+2026-04-08 05:15:40,881 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:42,035 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:42,035 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 332, 'num_checklist_summary_events': 278, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:38Z'}
+2026-04-08 05:15:42,035 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:43,186 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:43,186 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 332, 'num_checklist_summary_events': 278, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:38Z'}
+2026-04-08 05:15:43,186 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:43,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:43,985 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:43,985 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:43,986 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:44,354 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:44,354 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:44,355 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:44,665 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:44,666 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:44,666 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:45,504 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:45,504 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:45,504 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:46,657 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:46,657 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:46,657 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:47,871 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:47,871 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:47,871 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:48,674 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:48,674 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 336, 'num_checklist_summary_events': 282, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:43Z'}
+2026-04-08 05:15:48,675 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:48,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:48,983 - basicLogger - INFO - Received 5 checklist item events and 5 checklist summary events
+2026-04-08 05:15:48,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:48,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:49,104 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:49,105 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:49,105 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:50,297 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:50,297 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:50,297 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:51,458 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:51,459 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:51,459 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:52,614 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:52,615 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:52,615 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:52,674 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:52,674 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:52,674 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:53,836 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:53,836 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 341, 'num_checklist_summary_events': 287, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:48Z'}
+2026-04-08 05:15:53,837 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:53,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:53,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:53,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 345, 'num_checklist_summary_events': 291, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:53Z'}
+2026-04-08 05:15:53,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:55,065 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:55,066 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 345, 'num_checklist_summary_events': 291, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:53Z'}
+2026-04-08 05:15:55,066 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:56,215 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:56,215 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 345, 'num_checklist_summary_events': 291, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:53Z'}
+2026-04-08 05:15:56,215 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:56,541 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:56,541 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 345, 'num_checklist_summary_events': 291, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:53Z'}
+2026-04-08 05:15:56,542 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:57,385 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:57,388 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 345, 'num_checklist_summary_events': 291, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:53Z'}
+2026-04-08 05:15:57,389 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:58,580 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:58,580 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 345, 'num_checklist_summary_events': 291, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:53Z'}
+2026-04-08 05:15:58,580 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:15:58,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:15:58,982 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:15:58,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 349, 'num_checklist_summary_events': 295, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:58Z'}
+2026-04-08 05:15:58,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:15:59,740 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:15:59,740 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 349, 'num_checklist_summary_events': 295, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:58Z'}
+2026-04-08 05:15:59,740 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:00,551 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:00,552 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 349, 'num_checklist_summary_events': 295, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:58Z'}
+2026-04-08 05:16:00,552 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:00,892 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:00,892 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 349, 'num_checklist_summary_events': 295, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:58Z'}
+2026-04-08 05:16:00,892 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:02,192 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:02,192 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 349, 'num_checklist_summary_events': 295, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:58Z'}
+2026-04-08 05:16:02,193 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:03,547 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:03,548 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 349, 'num_checklist_summary_events': 295, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:15:58Z'}
+2026-04-08 05:16:03,548 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:03,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:03,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:03,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:03,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:04,544 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:04,544 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:04,545 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:04,758 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:04,758 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:04,759 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:06,032 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:06,032 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:06,032 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:07,257 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:07,257 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:07,257 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:08,429 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:08,430 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:08,430 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:08,552 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:08,552 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 353, 'num_checklist_summary_events': 299, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:03Z'}
+2026-04-08 05:16:08,553 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:08,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:08,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:08,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 357, 'num_checklist_summary_events': 303, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:08Z'}
+2026-04-08 05:16:08,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:09,625 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:09,625 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 357, 'num_checklist_summary_events': 303, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:08Z'}
+2026-04-08 05:16:09,625 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:10,811 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:10,811 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 357, 'num_checklist_summary_events': 303, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:08Z'}
+2026-04-08 05:16:10,811 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:11,970 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:11,971 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 357, 'num_checklist_summary_events': 303, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:08Z'}
+2026-04-08 05:16:11,971 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:12,548 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:12,548 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 357, 'num_checklist_summary_events': 303, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:08Z'}
+2026-04-08 05:16:12,548 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:13,294 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:13,294 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 357, 'num_checklist_summary_events': 303, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:08Z'}
+2026-04-08 05:16:13,294 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:13,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:13,985 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:13,985 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 361, 'num_checklist_summary_events': 307, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:13Z'}
+2026-04-08 05:16:13,986 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:14,488 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:14,488 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 361, 'num_checklist_summary_events': 307, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:13Z'}
+2026-04-08 05:16:14,489 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:15,736 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:15,736 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 361, 'num_checklist_summary_events': 307, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:13Z'}
+2026-04-08 05:16:15,736 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:16,547 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:16,548 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 361, 'num_checklist_summary_events': 307, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:13Z'}
+2026-04-08 05:16:16,548 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:16,978 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:16,978 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 361, 'num_checklist_summary_events': 307, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:13Z'}
+2026-04-08 05:16:16,978 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:18,150 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:18,150 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 361, 'num_checklist_summary_events': 307, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:13Z'}
+2026-04-08 05:16:18,150 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:18,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:18,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:18,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 365, 'num_checklist_summary_events': 311, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:18Z'}
+2026-04-08 05:16:18,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:19,397 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:19,397 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 365, 'num_checklist_summary_events': 311, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:18Z'}
+2026-04-08 05:16:19,397 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:20,544 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:20,544 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 365, 'num_checklist_summary_events': 311, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:18Z'}
+2026-04-08 05:16:20,544 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:20,564 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:20,564 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 365, 'num_checklist_summary_events': 311, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:18Z'}
+2026-04-08 05:16:20,564 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:21,755 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:21,757 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 365, 'num_checklist_summary_events': 311, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:18Z'}
+2026-04-08 05:16:21,757 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:22,968 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:22,969 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 365, 'num_checklist_summary_events': 311, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:18Z'}
+2026-04-08 05:16:22,970 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:23,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:23,985 - basicLogger - INFO - Received 5 checklist item events and 5 checklist summary events
+2026-04-08 05:16:23,986 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:23,986 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:24,123 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:24,123 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:24,123 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:24,675 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:24,676 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:24,676 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:25,290 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:25,290 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:25,290 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:26,459 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:26,459 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:26,459 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:27,630 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:27,631 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:27,631 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:28,687 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:28,688 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:28,688 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:28,819 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:28,819 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 370, 'num_checklist_summary_events': 316, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:23Z'}
+2026-04-08 05:16:28,819 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:28,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:28,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:28,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 374, 'num_checklist_summary_events': 320, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:28Z'}
+2026-04-08 05:16:28,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:29,997 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:29,997 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 374, 'num_checklist_summary_events': 320, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:28Z'}
+2026-04-08 05:16:29,997 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:31,160 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:31,160 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 374, 'num_checklist_summary_events': 320, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:28Z'}
+2026-04-08 05:16:31,160 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:32,339 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:32,339 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 374, 'num_checklist_summary_events': 320, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:28Z'}
+2026-04-08 05:16:32,339 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:32,675 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:32,676 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 374, 'num_checklist_summary_events': 320, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:28Z'}
+2026-04-08 05:16:32,676 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:33,673 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:33,673 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 374, 'num_checklist_summary_events': 320, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:28Z'}
+2026-04-08 05:16:33,673 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:33,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:33,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:33,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 378, 'num_checklist_summary_events': 324, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:33Z'}
+2026-04-08 05:16:33,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:34,865 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:34,865 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 378, 'num_checklist_summary_events': 324, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:33Z'}
+2026-04-08 05:16:34,865 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:36,042 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:36,042 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 378, 'num_checklist_summary_events': 324, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:33Z'}
+2026-04-08 05:16:36,042 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:36,678 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:36,678 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 378, 'num_checklist_summary_events': 324, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:33Z'}
+2026-04-08 05:16:36,679 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:37,218 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:37,218 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 378, 'num_checklist_summary_events': 324, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:33Z'}
+2026-04-08 05:16:37,218 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:38,491 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:38,491 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 378, 'num_checklist_summary_events': 324, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:33Z'}
+2026-04-08 05:16:38,491 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:38,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:38,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:38,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 382, 'num_checklist_summary_events': 328, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:38Z'}
+2026-04-08 05:16:38,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:39,777 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:39,777 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 382, 'num_checklist_summary_events': 328, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:38Z'}
+2026-04-08 05:16:39,777 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:40,675 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:40,676 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 382, 'num_checklist_summary_events': 328, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:38Z'}
+2026-04-08 05:16:40,676 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:40,933 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:40,933 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 382, 'num_checklist_summary_events': 328, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:38Z'}
+2026-04-08 05:16:40,933 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:42,246 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:42,247 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 382, 'num_checklist_summary_events': 328, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:38Z'}
+2026-04-08 05:16:42,248 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:43,505 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:43,505 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 382, 'num_checklist_summary_events': 328, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:38Z'}
+2026-04-08 05:16:43,505 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:43,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:43,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:43,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:43,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:44,670 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:44,671 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:44,672 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:44,696 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:44,696 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:44,696 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:45,931 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:45,932 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:45,932 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:47,099 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:47,099 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:47,099 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:48,262 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:48,262 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:48,262 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:48,689 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:48,690 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 386, 'num_checklist_summary_events': 332, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:43Z'}
+2026-04-08 05:16:48,690 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:48,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:48,990 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:48,991 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 390, 'num_checklist_summary_events': 336, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:48Z'}
+2026-04-08 05:16:48,991 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:49,424 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:49,424 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 390, 'num_checklist_summary_events': 336, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:48Z'}
+2026-04-08 05:16:49,424 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:50,641 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:50,642 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 390, 'num_checklist_summary_events': 336, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:48Z'}
+2026-04-08 05:16:50,642 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:51,832 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:51,832 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 390, 'num_checklist_summary_events': 336, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:48Z'}
+2026-04-08 05:16:51,832 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:52,675 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:52,676 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 390, 'num_checklist_summary_events': 336, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:48Z'}
+2026-04-08 05:16:52,676 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:53,063 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:53,063 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 390, 'num_checklist_summary_events': 336, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:48Z'}
+2026-04-08 05:16:53,064 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:53,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:53,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:16:53,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 394, 'num_checklist_summary_events': 340, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:53Z'}
+2026-04-08 05:16:53,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:54,262 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:54,262 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 394, 'num_checklist_summary_events': 340, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:53Z'}
+2026-04-08 05:16:54,262 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:55,599 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:55,599 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 394, 'num_checklist_summary_events': 340, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:53Z'}
+2026-04-08 05:16:55,600 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:56,683 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:56,684 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 394, 'num_checklist_summary_events': 340, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:53Z'}
+2026-04-08 05:16:56,684 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:56,767 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:56,768 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 394, 'num_checklist_summary_events': 340, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:53Z'}
+2026-04-08 05:16:56,768 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:58,057 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:58,057 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 394, 'num_checklist_summary_events': 340, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:53Z'}
+2026-04-08 05:16:58,057 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:16:58,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:16:58,985 - basicLogger - INFO - Received 5 checklist item events and 5 checklist summary events
+2026-04-08 05:16:58,986 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 399, 'num_checklist_summary_events': 345, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:58Z'}
+2026-04-08 05:16:58,986 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:16:59,219 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:16:59,219 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 399, 'num_checklist_summary_events': 345, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:58Z'}
+2026-04-08 05:16:59,220 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:00,370 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:00,370 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 399, 'num_checklist_summary_events': 345, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:58Z'}
+2026-04-08 05:17:00,370 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:00,706 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:00,707 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 399, 'num_checklist_summary_events': 345, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:58Z'}
+2026-04-08 05:17:00,707 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:01,572 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:01,573 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 399, 'num_checklist_summary_events': 345, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:58Z'}
+2026-04-08 05:17:01,573 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:02,963 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:02,964 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 399, 'num_checklist_summary_events': 345, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:16:58Z'}
+2026-04-08 05:17:02,964 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:03,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:03,983 - basicLogger - INFO - Received 4 checklist item events and 4 checklist summary events
+2026-04-08 05:17:03,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:03Z'}
+2026-04-08 05:17:03,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:04,682 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:04,682 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:03Z'}
+2026-04-08 05:17:04,683 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:08,550 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:08,551 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:03Z'}
+2026-04-08 05:17:08,551 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:08,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:08,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:08,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:08Z'}
+2026-04-08 05:17:08,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:12,694 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:12,695 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:08Z'}
+2026-04-08 05:17:12,695 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:13,967 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:14,002 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:14,003 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:13Z'}
+2026-04-08 05:17:14,004 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:16,686 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:16,686 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:13Z'}
+2026-04-08 05:17:16,687 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:18,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:18,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:18,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:18Z'}
+2026-04-08 05:17:18,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:20,679 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:20,680 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:18Z'}
+2026-04-08 05:17:20,680 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:23,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:23,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:23,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:23Z'}
+2026-04-08 05:17:23,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:24,667 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:24,668 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:23Z'}
+2026-04-08 05:17:24,668 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:28,690 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:28,691 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:23Z'}
+2026-04-08 05:17:28,691 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:28,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:28,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:28,981 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:28Z'}
+2026-04-08 05:17:28,981 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:32,686 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:32,687 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:28Z'}
+2026-04-08 05:17:32,687 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:33,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:33,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:33,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:33Z'}
+2026-04-08 05:17:33,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:36,676 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:36,677 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:33Z'}
+2026-04-08 05:17:36,677 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:38,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:38,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:38,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:38Z'}
+2026-04-08 05:17:38,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:40,681 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:40,681 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:38Z'}
+2026-04-08 05:17:40,682 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:43,967 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:43,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:43,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:43Z'}
+2026-04-08 05:17:43,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:44,679 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:44,680 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:43Z'}
+2026-04-08 05:17:44,680 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:48,670 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:48,671 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:43Z'}
+2026-04-08 05:17:48,671 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:48,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:48,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:48,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:48Z'}
+2026-04-08 05:17:48,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:52,684 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:52,685 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:48Z'}
+2026-04-08 05:17:52,685 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:53,967 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:53,993 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:53,994 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:53Z'}
+2026-04-08 05:17:53,995 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:17:56,684 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:17:56,685 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:53Z'}
+2026-04-08 05:17:56,685 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:17:58,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:17:58,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:17:58,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:58Z'}
+2026-04-08 05:17:58,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:00,745 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:18:00,746 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:17:58Z'}
+2026-04-08 05:18:00,746 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:18:03,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:03,985 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:03,985 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:03Z'}
+2026-04-08 05:18:03,985 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:04,672 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:18:04,673 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:03Z'}
+2026-04-08 05:18:04,673 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:18:08,684 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:18:08,684 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:03Z'}
+2026-04-08 05:18:08,685 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:18:08,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:08,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:08,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:08Z'}
+2026-04-08 05:18:08,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:13,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:13,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:13,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:13Z'}
+2026-04-08 05:18:13,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:18,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:18,983 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:18,984 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:18Z'}
+2026-04-08 05:18:18,984 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:23,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:23,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:23,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:23Z'}
+2026-04-08 05:18:23,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:28,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:28,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:28,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:28Z'}
+2026-04-08 05:18:28,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:30,698 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:18:30,698 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:28Z'}
+2026-04-08 05:18:30,698 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:18:33,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:33,990 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:33,991 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:33Z'}
+2026-04-08 05:18:33,991 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:38,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:38,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:38,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:38Z'}
+2026-04-08 05:18:38,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:43,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:43,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:43,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:43Z'}
+2026-04-08 05:18:43,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:48,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:48,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:48,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:48Z'}
+2026-04-08 05:18:48,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:53,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:53,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:53,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:53Z'}
+2026-04-08 05:18:53,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:18:58,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:18:58,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:18:58,983 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:18:58Z'}
+2026-04-08 05:18:58,983 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:03,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:03,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:03,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:03Z'}
+2026-04-08 05:19:03,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:08,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:08,994 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:08,995 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:08Z'}
+2026-04-08 05:19:08,995 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:13,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:13,994 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:13,995 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:13Z'}
+2026-04-08 05:19:13,995 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:18,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:18,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:18,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:18Z'}
+2026-04-08 05:19:18,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:23,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:23,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:23,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:23Z'}
+2026-04-08 05:19:23,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:28,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:28,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:28,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:28Z'}
+2026-04-08 05:19:28,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:30,709 - basicLogger - INFO - Request received: GET /stats
+2026-04-08 05:19:30,709 - basicLogger - DEBUG - Stats payload: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:28Z'}
+2026-04-08 05:19:30,709 - basicLogger - INFO - Request completed: GET /stats (200)
+2026-04-08 05:19:33,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:33,985 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:33,986 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:33Z'}
+2026-04-08 05:19:33,986 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:38,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:38,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:38,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:38Z'}
+2026-04-08 05:19:38,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:43,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:43,982 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:43,982 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:43Z'}
+2026-04-08 05:19:43,982 - basicLogger - INFO - Periodic processing ended
+2026-04-08 05:19:48,966 - basicLogger - INFO - Periodic processing started
+2026-04-08 05:19:48,981 - basicLogger - INFO - Received 0 checklist item events and 0 checklist summary events
+2026-04-08 05:19:48,981 - basicLogger - DEBUG - Updated stats: {'num_checklist_item_events': 403, 'num_checklist_summary_events': 349, 'max_estimated_mins': 120, 'max_items_completed': 9, 'last_updated': '2026-04-08T05:19:48Z'}
+2026-04-08 05:19:48,981 - basicLogger - INFO - Periodic processing ended

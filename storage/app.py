@@ -5,27 +5,24 @@ import logging
 import logging.config
 from threading import Thread
 import json
+import time
 
 import connexion
 from sqlalchemy.exc import SQLAlchemyError
 from kafka import KafkaConsumer
+from kafka.errors import KafkaError, NoBrokersAvailable
 
 from db import make_session, ENGINE
 from models import Base, ChecklistItemEvent, ChecklistSummaryEvent
 
 
-# 
 # logging setup
-# 
 with open("/config/storage_log_config.yml", "r") as f:
     log_config = yaml.safe_load(f.read())
 logging.config.dictConfig(log_config)
 logger = logging.getLogger("basicLogger")
 
-
-# 
-# load app config (Kafka)
-# 
+# load Kafka config
 with open("/config/storage_config.yaml", "r") as f:
     app_config = yaml.safe_load(f.read())
 KAFKA_HOST = app_config["events"]["hostname"]
@@ -33,31 +30,26 @@ KAFKA_PORT = app_config["events"]["port"]
 KAFKA_TOPIC = app_config["events"]["topic"]
 
 
-# Ensure tables exist
+# create tables
 Base.metadata.create_all(ENGINE)
 
 
-# ----------------------------
-# DB session decorator
-# ----------------------------
+# L11: improved DB session wrapper so failed writes rollback properly
 def use_db_session(func):
     @functools.wraps(func)
     def wrapper(*args, **kwargs):
         session = make_session()
         try:
-            return func(session, *args, **kwargs)
+            result = func(session, *args, **kwargs)
+            return result
+        except Exception:
+            session.rollback()   # L11: rollback on failure
+            raise
         finally:
             session.close()
     return wrapper
 
-
-# ----------------------------
-# timestamp parsing helper
-# ----------------------------
 def _parse_dt(dt_str: str) -> datetime:
-    """
-    Returns a timezone-aware datetime in UTC
-    """
     if not dt_str or not isinstance(dt_str, str):
         raise ValueError("timestamp must be a non-empty string")
 
@@ -71,20 +63,12 @@ def _parse_dt(dt_str: str) -> datetime:
 
     return dt.astimezone(timezone.utc)
 
-
 def _dt_to_z(dt: datetime) -> str:
-    """
-    convert datetime to ISO string ending with Z
-    """
     if dt is None:
         return None
     dtu = dt.astimezone(timezone.utc).replace(microsecond=0)
     return dtu.isoformat().replace("+00:00", "Z")
 
-
-# ----------------------------
-# ORM - dict helpers
-# ----------------------------
 def _item_to_dict(e: ChecklistItemEvent) -> dict:
     return {
         "trace_id": str(e.trace_id),
@@ -97,7 +81,6 @@ def _item_to_dict(e: ChecklistItemEvent) -> dict:
         "estimated_mins": int(e.estimated_mins),
     }
 
-
 def _summary_to_dict(e: ChecklistSummaryEvent) -> dict:
     return {
         "trace_id": str(e.trace_id),
@@ -109,16 +92,8 @@ def _summary_to_dict(e: ChecklistSummaryEvent) -> dict:
         "summary_at": _dt_to_z(e.summary_at),
     }
 
-
-# ----------------------------
-# DB insert helpers (used by Kafka consumer)
-# ----------------------------
 @use_db_session
 def _insert_checklist_item(session, body: dict):
-    """
-    Insert one checklist item event into DB.
-    body matches ChecklistItemEvent schema.
-    """
     trace_id = body["trace_id"]
 
     event = ChecklistItemEvent(
@@ -133,15 +108,10 @@ def _insert_checklist_item(session, body: dict):
     )
     session.add(event)
     session.commit()
-    logger.debug(f"Stored checklist item event with trace id {trace_id}")
-
+    logger.debug("Stored checklist item event with trace id %s", trace_id)
 
 @use_db_session
 def _insert_checklist_summary(session, body: dict):
-    """
-    Insert one checklist summary event into DB.
-    body matches ChecklistSummaryEvent schema.
-    """
     trace_id = body["trace_id"]
 
     event = ChecklistSummaryEvent(
@@ -155,63 +125,122 @@ def _insert_checklist_summary(session, body: dict):
     )
     session.add(event)
     session.commit()
-    logger.debug(f"Stored checklist summary event with trace id {trace_id}")
+    logger.debug("Stored checklist summary event with trace id %s", trace_id)
 
 
-# ----------------------------
-# Kafka consumer thread
-# ----------------------------
+# L11: added Kafka consumer wrapper with infinite retry logic
+# storage is a background service, so infinite retry makes sense here
+class KafkaConsumerWrapper:
+    def __init__(self, topic: str, host: str, port: int, group_id: str):
+        self.topic = topic
+        self.bootstrap = f"{host}:{port}"
+        self.group_id = group_id
+        self.consumer = None
+
+    # L11: keep trying until Kafka becomes available
+    def connect(self):
+        while True:
+            try:
+                logger.info("Trying to connect Kafka consumer to %s", self.bootstrap)
+                self.consumer = KafkaConsumer(
+                    self.topic,
+                    bootstrap_servers=[self.bootstrap],
+                    group_id=self.group_id,
+
+                    # L11: disable auto commit so offsets only move after DB write succeeds
+                    enable_auto_commit=False,
+
+                    auto_offset_reset="earliest",
+                    value_deserializer=lambda v: json.loads(v.decode("utf-8"))
+                )
+                logger.info("Kafka consumer connected successfully")
+                return
+            except (KafkaError, NoBrokersAvailable, Exception) as e:
+                logger.warning("Kafka consumer connection failed: %s", e)
+                self.consumer = None
+                time.sleep(1)
+
+    # L11: reset consumer if broker fails
+    def reset(self):
+        try:
+            if self.consumer is not None:
+                self.consumer.close()
+        except Exception:
+            pass
+        self.consumer = None
+
+    # L11: generator that reconnects if consumer loop breaks
+    def messages(self):
+        while True:
+            if self.consumer is None:
+                self.connect()
+
+            try:
+                for record in self.consumer:
+                    yield record
+            except (KafkaError, NoBrokersAvailable, Exception) as e:
+                logger.warning("Kafka consumer loop failed: %s", e)
+                self.reset()
+                time.sleep(1)
+
+    # L11: commit offsets only after successful processing
+    def commit(self):
+        if self.consumer is not None:
+            self.consumer.commit()
+
+
+# L11: one global Kafka wrapper
+kafka_wrapper = KafkaConsumerWrapper(
+    topic=KAFKA_TOPIC,
+    host=KAFKA_HOST,
+    port=KAFKA_PORT,
+    group_id="event_group"
+)
+
+
 def process_messages():
     """
     Consume Kafka messages forever and store them to MySQL.
-    Receiver produces messages in format:
-      { "type": "...", "datetime": "...", "payload": { ...single event... } }
+    Commits offsets only after the DB write succeeds.
     """
-    consumer = KafkaConsumer(
-        KAFKA_TOPIC,
-        bootstrap_servers=[f"{KAFKA_HOST}:{KAFKA_PORT}"],
-        group_id="event_group",
-        enable_auto_commit=False,      # commit only after DB write
-        auto_offset_reset="earliest",    # first run only reads new messages
-        value_deserializer=lambda v: json.loads(v.decode("utf-8")),
-        consumer_timeout_ms=1000
-    )
+    logger.info("Storage Kafka consumer thread started")
 
-    logger.info(f"Kafka consumer started on topic={KAFKA_TOPIC} group_id=event_group")
-
-    while True:
+    for record in kafka_wrapper.messages():
         try:
-            for record in consumer:
-                msg = record.value
-                event_type = msg.get("type")
-                payload = msg.get("payload", {})
+            msg = record.value
+            event_type = msg.get("type")
+            payload = msg.get("payload", {})
 
-                if event_type == "checklist_item":
-                    _insert_checklist_item(payload)
-                elif event_type == "checklist_summary":
-                    _insert_checklist_summary(payload)
-                else:
-                    logger.warning(f"Unknown event type: {event_type}")
+            if event_type == "checklist_item":
+                _insert_checklist_item(payload)
+            elif event_type == "checklist_summary":
+                _insert_checklist_summary(payload)
+            else:
+                logger.warning("Unknown event type: %s", event_type)
 
-                consumer.commit()
+            # L11: commit offset only after successful DB insert
+            kafka_wrapper.commit()
 
         except (KeyError, ValueError, TypeError) as e:
-            # bad payload formatting - log and keep going
-            logger.exception(f"Bad event payload: {e}")
-        except SQLAlchemyError as e:
-            logger.exception(f"Database error while storing event: {e}")
-        except Exception as e:
-            logger.exception(f"Kafka consume loop error: {e}")
+            logger.exception("Bad event payload: %s", e)
 
+            # L11: commit bad message so it does not block queue forever
+            kafka_wrapper.commit()
+
+        except SQLAlchemyError as e:
+            # L11: do not commit offset on DB failure
+            logger.exception("Database error while storing event: %s", e)
+            time.sleep(1)
+
+        except Exception as e:
+            # L11: do not commit offset on unexpected processing failure
+            logger.exception("Unexpected storage processing error: %s", e)
+            time.sleep(1)
 
 def start_kafka_thread():
     t = Thread(target=process_messages, daemon=True)
     t.start()
 
-
-# ----------------------------
-# GET endpoints (unchanged)
-# ----------------------------
 @use_db_session
 def get_checklist_item_events(session, start_timestamp, end_timestamp):
     try:
@@ -231,7 +260,10 @@ def get_checklist_item_events(session, start_timestamp, end_timestamp):
 
         payload = [_item_to_dict(e) for e in results]
         logger.debug(
-            f"GET checklist-items date_created in [{start_timestamp}, {end_timestamp}) -> {len(payload)} events"
+            "GET checklist-items date_created in [%s, %s) -> %d events",
+            start_timestamp,
+            end_timestamp,
+            len(payload)
         )
         return payload, 200
 
@@ -239,7 +271,6 @@ def get_checklist_item_events(session, start_timestamp, end_timestamp):
         return {"message": f"Bad request: {e}"}, 400
     except SQLAlchemyError as e:
         return {"message": f"Database error: {e}"}, 500
-
 
 @use_db_session
 def get_checklist_summary_events(session, start_timestamp, end_timestamp):
@@ -260,7 +291,10 @@ def get_checklist_summary_events(session, start_timestamp, end_timestamp):
 
         payload = [_summary_to_dict(e) for e in results]
         logger.debug(
-            f"GET checklist-summaries date_created in [{start_timestamp}, {end_timestamp}) -> {len(payload)} events"
+            "GET checklist-summaries date_created in [%s, %s) -> %d events",
+            start_timestamp,
+            end_timestamp,
+            len(payload)
         )
         return payload, 200
 
@@ -269,10 +303,6 @@ def get_checklist_summary_events(session, start_timestamp, end_timestamp):
     except SQLAlchemyError as e:
         return {"message": f"Database error: {e}"}, 500
 
-
-# ----------------------------
-# connexion app
-# ----------------------------
 app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(
@@ -281,7 +311,6 @@ app.add_api(
     validate_responses=True
 )
 
-# start Kafka consumer when the service starts
 start_kafka_thread()
 
 if __name__ == "__main__":
