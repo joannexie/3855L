@@ -7,7 +7,7 @@ scheduler:
   period_sec: 5
 
 eventstores:
-  checklist_items:
-    url: http://storage:8090/todo/checklist-items
+  checklist_items: #L12
+    url: http://storage:8090/storage/todo/checklist-items
   checklist_summaries:
-    url: http://storage:8090/todo/checklist-summaries
+    url: http://storage:8090/storage/todo/checklist-summaries

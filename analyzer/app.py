@@ -69,7 +69,7 @@ def _parse_index(index):
 def _find_event_by_type_index(wanted_type: str, wanted_index: int):
     """
     Kafka topic contains mixed event types.
-    count only events of wanted_type and return the one at wanted_index
+    Count only events of wanted_type and return the one at wanted_index.
     """
     consumer = _get_consumer()
     count = 0
@@ -90,13 +90,14 @@ def _find_event_by_type_index(wanted_type: str, wanted_index: int):
 
     return {"message": f"No event of type '{wanted_type}' at index {wanted_index}"}, 404
 
-# A1: new health endpoint
+
 def health():
     """
     GET /health
     Returns 200 if analyzer service is running.
     """
     return {"status": "Analyzer is healthy"}, 200
+
 
 def get_event1(index=None):
     """
@@ -149,25 +150,30 @@ def get_stats():
     }, 200
 
 
-# Main
 def main():
     logger.info(
-        f"Analyzer starting. Kafka={EVENTS_HOSTNAME}:{EVENTS_PORT} topic={KAFKA_TOPIC} "
-        f"event1={EVENT1_TYPE} event2={EVENT2_TYPE}"
+        f"Analyzer starting. Kafka={EVENTS_HOSTNAME}:{EVENTS_PORT} "
+        f"topic={KAFKA_TOPIC} event1={EVENT1_TYPE} event2={EVENT2_TYPE}"
     )
 
     app = connexion.FlaskApp(__name__, specification_dir=".")
 
-    app.add_middleware(
-        CORSMiddleware,
-        position=MiddlewarePosition.BEFORE_EXCEPTION,
-        allow_origins=["*"],
-        allow_credentials=True,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
+    if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
+        app.add_middleware(
+            CORSMiddleware,
+            position=MiddlewarePosition.BEFORE_EXCEPTION,
+            allow_origins=["*"],
+            allow_credentials=True,
+            allow_methods=["*"],
+            allow_headers=["*"],
+        )
 
-    app.add_api("openapi.yml", strict_validation=True, validate_responses=True)
+    app.add_api(
+        "openapi.yml",
+        base_path="/analyzer",
+        strict_validation=True,
+        validate_responses=True
+    )
 
     app.run(port=SERVICE_PORT, host="0.0.0.0")
 

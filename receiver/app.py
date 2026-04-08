@@ -221,6 +221,7 @@ app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(
     "openapi.yml",
+    base_path="/receiver",  # L12 reverse proxy base path
     strict_validation=True,
     validate_responses=True
 )

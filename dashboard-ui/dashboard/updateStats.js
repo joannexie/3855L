@@ -1,10 +1,10 @@
-const host = window.location.hostname || "localhost";
-
-const PROCESSING_STATS_URL = `http://${host}:8100/stats`;
-const ANALYZER_STATS_URL = `http://${host}:8110/stats`;
-const HEALTH_URL = `http://${host}:8120/checks`;
-const EVENT1_URL = `http://${host}:8110/todo/checklist-items`;
-const EVENT2_URL = `http://${host}:8110/todo/checklist-summaries`;
+const base = `${window.location.protocol}//${window.location.host}`;
+//L12
+const PROCESSING_STATS_URL = `${base}/processing/stats`;
+const ANALYZER_STATS_URL = `${base}/analyzer/stats`;
+const HEALTH_URL = `${base}/health/checks`;
+const EVENT1_URL = `${base}/analyzer/todo/checklist-items`;
+const EVENT2_URL = `${base}/analyzer/todo/checklist-summaries`;
 
 function prettyPrint(data) {
   return JSON.stringify(data, null, 2);
