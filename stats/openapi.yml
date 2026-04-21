@@ -1,0 +1,64 @@
+openapi: 3.0.0
+info:
+  title: Stats Service API
+  description: Provides the status of your services
+  version: "1.0.0"
+  contact:
+    email: user@test.com
+paths:
+  /update:
+    put:
+      summary: Update the stats datastore
+      operationId: app.update_stats
+      description: Updates the stats datastore by querying the other services
+      responses:
+        '201':
+          description: Successfully updated the stats datastore
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  service_count:
+                    type: integer
+                    example: 4
+  /stats:
+    get:
+      operationId: app.get_stats
+      responses:
+        "200":
+          description: OK - stats returned
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
+        "404":
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Stats:
+      required:
+        - receiver
+        - storage
+        - processing
+        - analyzer
+      properties:
+        receiver:
+          type: string
+          example: "Healthy at 2025-12-12 9:34:56"
+        storage:
+          type: string
+          example: "Storage has 6 Temperature and 4 Precipitation events"
+        processing:
+          type: string
+          example: "Processing has 6 Temperature and 4 Precipitation events"
+        analyzer:
+          type: string
+          example: "Analyzer has 10 Temperature and 4 Precipitation events"

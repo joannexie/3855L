@@ -6,8 +6,10 @@ datastore:
 scheduler:
   period_sec: 5
 
+# updated urls to include prefix
 eventstores:
-  checklist_items: #L12
+  checklist_items: #L12 
     url: http://storage:8090/storage/todo/checklist-items
   checklist_summaries:
     url: http://storage:8090/storage/todo/checklist-summaries
+# processing now calls storage using the new prefixed route

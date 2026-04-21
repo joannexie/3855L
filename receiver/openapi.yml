@@ -16,6 +16,25 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HealthResponse'
+
+  /stats:
+    get:
+      summary: checks the status of the receiver
+      operationId: app.get_stats
+      description: service is okay if this endpoint returns a response
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status_datetime:
+                    type: string
+                    format: date-time
+                    example: 2025-12-12 9:35:34
+
   /todo/checklist-items:
     post:
       summary: Reports a batch of checklist item events
@@ -56,6 +75,14 @@ components:
         status:
           type: string
           example: Receiver is healthy
+    Stats:
+      type: object
+      properties:
+        status_datetime:
+          type: string
+          format: date-time
+          example: 2025-12-12 9:35:34
+          
     ChecklistItemBatch:
       type: object
       required:

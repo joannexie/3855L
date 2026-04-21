@@ -16,6 +16,18 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/HealthResponse'
+
+  /stats:
+    get:
+      summary: gets the event stats
+      operationId: app.get_event_stats
+      responses:
+        '200':
+          description: sucessfully returned the storage stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
   /todo/checklist-items:
     get:
       summary: Get checklist item events by timespan
@@ -88,6 +100,19 @@ components:
         status:
           type: string
           example: Storage is healthy
+    Stats:
+      type: object
+      required:
+        - num_temp
+        - num_precip
+      properties:
+        num_temp:
+          type: integer
+          example: 100
+        num_precip:
+          type: integer
+          example: 100
+
     ChecklistItemEvent:
       type: object
       required:

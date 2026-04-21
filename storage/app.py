@@ -311,6 +311,32 @@ def health():
     """
     return {"status": "Storage is healthy"}, 200
 
+def get_event_stats():
+    
+    logger.info("Request received: GET /event_stats")
+
+    try:
+        response = requests.get(STORAGE_URL, timeout=5)
+        if response.status_code == 200:
+            storage_json = response.json()
+            event_stats = {
+                "num_temp": storage_json.get("num_temp", 0),
+                "num_precip": storage_json.get("num_precip", 0)
+            }
+            logger.info("Event stats retrieved successfully")
+            logger.debug("Event stats payload: %s", event_stats)
+            logger.info("Request completed: GET /event_stats (200)")
+            return event_stats, 200
+        else:
+            logger.error("Storage returned non-200 response: %d", response.status_code)
+            logger.info("Request completed: GET /event_stats (404)")
+            return {"message": "Failed to retrieve event stats from storage"}, 404
+    except Exception as e:
+        logger.error("Error retrieving event stats from storage: %s", e)
+        logger.info("Request completed: GET /event_stats (404)")
+        return {"message": "Failed to retrieve event stats from storage"}, 404
+
+
 app = connexion.FlaskApp(__name__, specification_dir="")
 
 app.add_api(

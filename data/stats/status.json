@@ -1,0 +1,7 @@
+{
+    "receiver": "Receiver is healthy at 2025-12-12 9:35:34",
+    "storage": "Storage has 6 Temperature and 4 Precipitation events",
+    "processing": "Processing has 6 Temperature and 4 Precipitation events",
+    "analyzer": "Analyzer has 10 Temperature and 4 Precipitation events"
+
+}

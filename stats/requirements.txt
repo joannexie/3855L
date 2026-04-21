@@ -1,0 +1,6 @@
+connexion[flask,uvicorn]==3.0.6
+PyYAML==6.0.2
+requests==2.32.3
+APScheduler==3.10.4
+starlette==0.36.3
+httpx==0.27.0

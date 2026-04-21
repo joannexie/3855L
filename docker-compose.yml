@@ -158,6 +158,29 @@ services:
       retries: 10
       start_period: 20s
 
+  stats:
+    build:
+      context: ./stats
+      dockerfile: Dockerfile
+    restart: on-failure
+    depends_on:
+      receiver:
+        condition: service_started
+      storage:
+        condition: service_started
+    environment: 
+      CORS_ALLOW_ALL: "no"
+    volumes:
+      - ./config:/config
+      - ./logs:/logs
+      - ./data/stats:/data
+    healthcheck:
+      test: ["CMD", "python", "-c", "import socket; s=socket.create_connection(('localhost', 8130), 2); s.close()"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+
   dashboard:
     build:
       context: ./dashboard-ui
@@ -170,7 +193,7 @@ services:
         condition: service_healthy
       health:
         condition: service_healthy
-  nginx: #L12
+  nginx: #L12: nginx service, removed ports from other services
     image: nginx:alpine
     restart: unless-stopped
     depends_on:

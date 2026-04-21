@@ -66,7 +66,7 @@ class KafkaProducerWrapper:
             pass
         self.producer = None
 
-    # L11: send whole batch and retry several times if Kafka is temporarily down
+    # L11: send messages in batches instead of handling each one individually and retry several times if Kafka is temporarily down. 
     def send_batch(self, messages, max_attempts: int = 10):
         last_error = None
 
@@ -120,7 +120,7 @@ class KafkaProducerWrapper:
         raise RuntimeError(f"Unable to send Kafka messages after {max_attempts} attempts: {last_error}")
 
 
-# L11: one global producer wrapper reused by all requests
+# L11: one global producer wrapper reused by all requests, to improve how receiver sends data to kafka (instead of for every event)
 producer_wrapper = KafkaProducerWrapper(KAFKA_HOST, KAFKA_PORT, KAFKA_TOPIC)
 
 
@@ -138,7 +138,20 @@ def health():
     GET /health
     Returns 200 if receiver service is running.
     """
-    return {"status": "Receiver is healthy"}, 200
+    return {"status": "Receiver is healthy"}, 
+    
+def get_stats():
+    try:
+        response = app.app.test_client().get("/stats")
+        if response.status_code == 200:
+            stats = response.get_json()
+            return {
+                "status": "Receiver is healthy",
+                "storage_stats": stats
+            }, 200
+        else:
+            logger.warning("Failed to get storage stats, status code: %d", response.status_code)
+            return {"status": "Receiver is healthy, but failed to get storage stats"}, 200
 
 
 def report_checklist_item_events(body):
